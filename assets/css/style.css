@@ -132,7 +132,7 @@ footer {
     padding: 5px 25px 5px 25px;
 }
 
-.icons-wrapper li a:hover {
+.icons-wrapper span a:hover {
     background-color: #3b3b3b;
     transition-duration: 0.2s;
 }

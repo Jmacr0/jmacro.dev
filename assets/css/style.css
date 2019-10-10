@@ -24,7 +24,7 @@ nav {
 }
 
 #navbarNav .navbar-nav .nav-item a {
-    padding: 8px 25px 8px 25px;
+    padding: 10px 25px 10px 25px;
     transition-duration: 0.2s;
 }
 
@@ -36,7 +36,7 @@ nav {
 .container .navbar-brand, .container .navbar-brand:focus {
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 5px 10px 5px 10px;
+    padding: 6px 10px 6px 10px;
     font-weight: bold;
 }
 
@@ -77,9 +77,20 @@ nav {
 
 .carousel-inner {
     max-width: 600px;
+    border: 6px solid #303030;
 }
 
+.carousel-caption a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
+.carousel-caption h3:hover {
+    background-color: #4aaaa5;
+    color: #d8d8d8;
+    transition-duration: 0.2s;
+  
+}
 
 
 .carousel-item h3 {
@@ -90,6 +101,7 @@ nav {
     border-radius: 5px;
     font-size: 2rem;
 }
+
 
 
 /*//////////////////// PORTFOLIO /////////////////////*/

@@ -55,12 +55,21 @@ nav {
 }
 
 
+/*//////////////////// PORTFOLIO /////////////////////*/
+
+#carouselExampleControls {
+    max-width: 500px;
+    height: auto;
+}
+
+
 
 /*//////////////////// FOOTER /////////////////////*/
 
 footer {
     width: 100vw;
     background: #181818;
+    border-top: 8px solid #4aaaa5;
 }
 
 ul {

@@ -1,0 +1,115 @@
+/*//////////////////// UNIVERSAL /////////////////////*/
+
+body {
+    background-image: url("../images/what-the-hex-dark/what-the-hex-dark.png");
+    background-repeat: repeat;
+   
+}
+
+
+
+/*//////////////////// NAVBAR /////////////////////*/
+
+nav {
+    border-bottom: 2px solid rgb(73, 73, 73);
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 0;
+}
+
+#navbarNav .navbar-nav .nav-item a {
+    padding: 8px 25px 8px 25px;
+    transition-duration: 0.2s;
+}
+
+#navbarNav .navbar-nav .nav-item a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.container .navbar-brand, .container .navbar-brand:focus {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 30px 5px 30px;
+    font-weight: bold;
+}
+
+.container .navbar-brand:hover {
+    color: #ebebeb;
+    background-color: #439995;
+    transition-duration: 0.2s; 
+}
+.container .navbar-brand:active {
+    color: #acacac;
+    background-color: #3b8683; 
+}
+
+/*//////////////////// ABOUT /////////////////////*/
+
+.jumbotron {
+    background-color: #ffffff;
+    margin-top: 5rem;
+    padding-top: 2rem;
+}
+
+
+
+/*//////////////////// FOOTER /////////////////////*/
+
+footer {
+    width: 100vw;
+    background: #181818;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+#copy {
+    color: #ffffff;
+    font-size: 0.9rem;
+    
+}
+
+.icons-wrapper li {
+    display: inline-flex;
+    
+   
+}
+
+
+.icons-wrapper li a {
+    font-size: 3em;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 25px 5px 25px;
+}
+
+.icons-wrapper li a:hover {
+    background-color: #3b3b3b;
+    transition-duration: 0.2s;
+}
+
+
+#linkedin a:hover {
+    color: #007bb5;
+  }
+  
+#github a:hover {
+color: #000000;
+}
+#twitter a:hover {
+color: #1da1f2;
+}
+  
+
+/*///*/
+

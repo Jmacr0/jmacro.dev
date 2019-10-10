@@ -59,6 +59,12 @@ nav {
     padding-top: 2rem;
 }
 
+.card-body {
+    border: none;
+    background-color: #181818;    
+    color: #ffffff;
+    border-radius: 2px;
+}
 
 
 /*//////////////////// PORTFOLIO /////////////////////*/
@@ -105,15 +111,6 @@ footer {
     border-top: 8px solid #4aaaa5;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    list-style-type: none;
-}
-
 
 #copy {
     color: #ffffff;
@@ -128,7 +125,7 @@ ul li {
 }
 
 
-.icons-wrapper li a {
+.icons-wrapper span a {
     font-size: 3em;
     text-decoration: none;
     color: #ffffff;

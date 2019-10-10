@@ -18,6 +18,11 @@ nav {
     padding: 0;
 }
 
+.navbar-toggler {
+    padding: 5px;
+    
+}
+
 #navbarNav .navbar-nav .nav-item a {
     padding: 8px 25px 8px 25px;
     transition-duration: 0.2s;
@@ -31,7 +36,7 @@ nav {
 .container .navbar-brand, .container .navbar-brand:focus {
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 5px 30px 5px 30px;
+    padding: 5px 10px 5px 10px;
     font-weight: bold;
 }
 
@@ -53,6 +58,7 @@ nav {
     margin-bottom: 5rem;
     padding-top: 2rem;
 }
+
 
 
 /*//////////////////// PORTFOLIO /////////////////////*/

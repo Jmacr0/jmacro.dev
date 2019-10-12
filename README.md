@@ -13,20 +13,23 @@ The main purpose for this application is to implement and practice Bootstrap 4 s
 
 This application consists of three pages:
 
+
 #### About (Index)
 
-
+https://jmacr0.github.io/
 
 A brief about myself and my goals for the future.
 
+
 #### Portfolio
 
-
+https://jmacr0.github.io/portfolio.html
 
 A showcase of projects I have created / collaborated with. (placeholders used for the time being)
 
+
 #### Contact
 
-
+https://jmacr0.github.io/contact.html
 
 A simple contact page people can direct messages to me. (currently without backend support)

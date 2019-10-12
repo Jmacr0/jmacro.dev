@@ -102,7 +102,9 @@ nav {
     font-size: 2rem;
 }
 
-
+.card {
+    max-width: 600px;
+}
 
 /*//////////////////// PORTFOLIO /////////////////////*/
 
@@ -112,7 +114,9 @@ form {
     margin-top: 3rem;
 }
 
-
+.card ul button {
+    width: 100%;
+}
 
 
 /*//////////////////// FOOTER /////////////////////*/

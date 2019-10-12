@@ -1,9 +1,6 @@
 ///////////////////// NAVBAR ///////////////////////
 
-$(document).ready(function() {
-  $('li.active').removeClass('active');
-  $('a[href="' + window.location.pathname + '"]').closest('li').addClass('active'); 
-});
+
 
 ///////////////////// PORTFOLIO ///////////////////////
 

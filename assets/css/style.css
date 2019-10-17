@@ -27,6 +27,7 @@ nav {
 .navbar {
     background-color: #ffffff;
     padding: 0;
+    
 }
 
 .navbar-toggler {
@@ -116,6 +117,7 @@ nav {
 
 .list-group-item {
     padding: 12px 20px;
+    border: none;
     
 }
 
@@ -126,7 +128,7 @@ nav {
 
 
 .carousel-inner {
-    
+    background-color: #000000;
     border: 6px solid #ffffff;
 }
 
@@ -136,7 +138,7 @@ nav {
 }
 
 .carousel-caption h3:hover {
-    background-color: #005e59e7;
+    background-color: #00928bcb;
     color: #ffffff;
     transition-duration: 0.2s;
   
@@ -152,6 +154,25 @@ nav {
     font-size: 2rem;
 }
 
+
+.carousel-item img {
+    opacity: 0.3;
+}
+
+.carousel-item img:hover {
+    opacity: 0.5;
+    transition-duration: 0.2s;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: teal;
+}
+
+.card-text a:hover {
+    transition-duration: 0.1s;
+    color: #4aaaa5;
+}
 
 
 /*//////////////////// CONTACT /////////////////////*/
@@ -251,6 +272,11 @@ footer {
     h2 {
         font-size: 1.7em;
     }
+
+    #port-featured-card {
+        display: none;
+    }
+
     
 }
 
@@ -260,6 +286,12 @@ footer {
 h2 {
     font-size: 1.8em;
 }
+
+#port-featured-card {
+    display: none;
+}
+
+
 
 }
 
@@ -279,6 +311,12 @@ h2 {
     #contact-inquiries {
         font-size: 1.2em;
     }
+
+    #port-featured-card {
+        display: none;
+    }
+
+    
 
 }
 
@@ -310,6 +348,9 @@ h2 {
         width: 94%;
     }
     
+    #app-featured-card {
+        width: 94%;
+    }
 }
 
 
@@ -350,7 +391,9 @@ h2 {
         width: 93%;
     }
 
-    
+    #app-featured-card {
+        width: 93%;
+    }
 }
 
 

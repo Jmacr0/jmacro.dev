@@ -1,6 +1,9 @@
 ///////////////////// NAVBAR ///////////////////////
 
-
+$("li a").on("click", function(){
+  $("li a").find(".active").removeClass("active");
+  $(this).addClass("active");
+});
 
 ///////////////////// PORTFOLIO ///////////////////////
 

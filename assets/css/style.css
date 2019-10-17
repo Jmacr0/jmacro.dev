@@ -24,7 +24,7 @@ nav {
 }
 
 #navbarNav .navbar-nav .nav-item a {
-    padding: 10px 25px 10px 25px;
+    padding: 16px 25px 16px 25px;
     transition-duration: 0.2s;
 }
 
@@ -36,7 +36,7 @@ nav {
 .container .navbar-brand, .container .navbar-brand:focus {
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 7px 10px 7px 10px;
+    padding: 13px 10px 13px 10px;
     font-weight: bold;
 }
 
@@ -49,6 +49,7 @@ nav {
     color: #acacac;
     background-color: #3b8683; 
 }
+
 
 /*//////////////////// ABOUT /////////////////////*/
 

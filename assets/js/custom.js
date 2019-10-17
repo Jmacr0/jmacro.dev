@@ -1,7 +1,7 @@
 ///////////////////// NAVBAR ///////////////////////
 
 $(document).ready(function() {
-  $('a[href="/' + this.location.pathname + '"]').parent().addClass('active');
+  $('a[href="' + this.location.pathname.split("").slice(1,location.pathname.length).join("") + '"]').parent().addClass('active');
 });
 
 

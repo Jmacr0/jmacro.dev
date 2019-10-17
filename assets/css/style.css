@@ -6,6 +6,17 @@ body {
    
 }
 
+h1 {
+    animation: fadein 1.5s;
+   
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+
 
 /*//////////////////// NAVBAR /////////////////////*/
 
@@ -98,38 +109,49 @@ nav {
 
 /*//////////////////// PORTFOLIO /////////////////////*/
 
-#carouselExampleControls {
-    max-width: 600px;
-    height: auto;
+#port-featured-card {
+   z-index: 1;
     
 }
 
+.list-group-item {
+    padding: 12px 20px;
+    
+}
+
+#carouselExampleControls {
+    
+    height: auto;
+}
+
+
 .carousel-inner {
-    max-width: 600px;
-    border: 6px solid #303030;
+    
+    border: 6px solid #ffffff;
 }
 
 .carousel-caption a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ececec;
 }
 
 .carousel-caption h3:hover {
-    background-color: #4aaaa5;
-    color: #d8d8d8;
+    background-color: #005e59e7;
+    color: #ffffff;
     transition-duration: 0.2s;
   
 }
 
 
 .carousel-item h3 {
-    background-color: #18181898;
+    background-color: #181818ea;
     width: 100%;
     margin: 0px 0px 30px 0px;
     padding: 20px 10px 20px 10px;
     border-radius: 5px;
     font-size: 2rem;
 }
+
 
 
 /*//////////////////// CONTACT /////////////////////*/
@@ -166,6 +188,7 @@ footer {
     width: 100vw;
     background: #181818;
     border-top: 8px solid #4aaaa5;
+    
 }
 
 
@@ -213,23 +236,58 @@ footer {
 
 /*//////////////////////////////// MEDIA QUERIES ////////////////////////////////*/
 
+@media (min-width: 1600px) {
+
+    h2 {
+        font-size: 2em;
+    }
+    
+}
+
+
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 
+    h2 {
+        font-size: 1.7em;
+    }
+    
 }
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+
+h2 {
+    font-size: 1.8em;
+}
 
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    h2 {
+        font-size: 1.7em;
+    }
+
+    #copy {
+        color: #ffffff;
+        font-size: 0.8rem;
+        
+    }
+
+    #contact-inquiries {
+        font-size: 1.2em;
+    }
+
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+
+    h2 {
+        font-size: 1.6em;
+    }
 
     .icons-wrapper span a {
         font-size: 2em;
@@ -242,11 +300,57 @@ footer {
         
     }
 
+    #carousel-button-1, #carousel-button-2 {
+        width: 50%;
+        margin: auto;
+        
+    }
+
+    #port-featured-card {
+        width: 94%;
+    }
+    
+}
+
+
+@media (max-width: 738px) {
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    
+
+}
+
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.8em;
+    }
+
+    #carousel-button-1, #carousel-button-2 {
+        width: 70%;
+        margin: auto;
+        
+    }
+
+    
+    
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
 
+    #contact-inquiries {
+        font-size: 0.8em;
+    }
+
+    #port-featured-card {
+        width: 93%;
+    }
+
+    
 }
 
 

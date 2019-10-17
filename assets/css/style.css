@@ -24,8 +24,9 @@ nav {
 }
 
 #navbarNav .navbar-nav .nav-item a {
-    padding: 16px 25px 16px 25px;
+    padding: 13px 30px 14px 30px;
     transition-duration: 0.2s;
+    font-size: 1.2em;
 }
 
 #navbarNav .navbar-nav .nav-item a:hover {
@@ -53,18 +54,45 @@ nav {
 
 /*//////////////////// ABOUT /////////////////////*/
 
+
+
 .jumbotron {
-    background-color: #ffffff;
+    background-color: #ffffff;    
     margin-top: 5rem;
     margin-bottom: 7rem;
     padding-top: 2rem;
 }
 
+.card h4 {
+    font-size: 2em;
+}
+
+.card-about {
+    border: none;
+}
+
 .card-body {
     border: none;
-    background-color: #181818;    
-    color: #ffffff;
-    border-radius: 2px;
+    background-color: #fcfcfc;    
+    color: #4aaaa5;
+    
+}
+
+.icon-size {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+.canvas-container {
+    background-color: #fcfcfc;
+    
+}
+
+#lineChart {
+    height: 100%;
 }
 
 
@@ -104,13 +132,28 @@ nav {
 }
 
 
-/*//////////////////// PORTFOLIO /////////////////////*/
+/*//////////////////// CONTACT /////////////////////*/
 
 
 form {
     width: 80%;
     margin-top: 3rem;
 }
+
+.form-container {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.form-group {
+    padding: 5px;
+    
+}
+
+
+#formGroupExampleInput4 {    
+    height: 200px;
+  }
 
 .card ul button {
     width: 100%;
@@ -170,7 +213,41 @@ footer {
 
 /*//////////////////////////////// MEDIA QUERIES ////////////////////////////////*/
 
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
 
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    .icons-wrapper span a {
+        font-size: 2em;
+        
+    }
+
+    #copy {
+        color: #ffffff;
+        font-size: 0.7rem;
+        
+    }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
 
 
 /*///*/

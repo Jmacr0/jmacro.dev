@@ -316,7 +316,9 @@ h2 {
         display: none;
     }
 
-    
+    .canvas-container {
+        height: auto;
+    }
 
 }
 
@@ -351,6 +353,10 @@ h2 {
     #app-featured-card {
         width: 94%;
     }
+
+    .canvas-container {
+        height: 320px;
+    }
 }
 
 
@@ -360,14 +366,18 @@ h2 {
         font-size: 1.2em;
     }
 
-    
+   
 
 }
 
 
 @media (max-width: 576px) {
-    h2 {
-        font-size: 1.8em;
+    .index-h2 {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 0.9em;
     }
 
     #carousel-button-1, #carousel-button-2 {
@@ -375,13 +385,28 @@ h2 {
         margin: auto;
         
     }
+ 
+  
 
-    
+    .icon-size {
+        height: 90px;
+        width: auto;
+    }
+
+    #profile {
+        display: none;
+    }
     
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+
+    .index-h2 {
+        margin-bottom: 10px;
+    }
+
+    
 
     #contact-inquiries {
         font-size: 0.8em;
@@ -393,6 +418,11 @@ h2 {
 
     #app-featured-card {
         width: 93%;
+    }
+
+    .icon-size {
+        height: 70px;
+        width: auto;
     }
 }
 

@@ -45,43 +45,60 @@
 
     <div class="jumbotron container-fluid col-lg-10 col-xl-8">
         <header>
-
-            <div class="row">
-
-                <h1 class="col-md-4">Contact</h1>
-                <div class="alert alert-warning col-md-8" role="alert">
-                    Unfortunately this contact form is dead. <a href="index.html" class="alert-link">Click Here</a> to return home.
-                </div>
-                
-            </div>
-
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-        
+            <h1 class="col-md-4">Contact</h1>         
             <hr>
-            <div class="container pt-4 pb-5 form-container">
-                <form class="mt-0 mx-auto">
-                    <p id="contact-inquiries" class="text-center">Have any inquiries? Drop me a message!</p>
-                    <div class="form-group">                      
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+            <div class="container pt-4 pb-5 form-container mx-auto">
+                <div class="row">
+
+                    <div class="col-md-5 mx-auto">
+                        <div class="row">
+                            <div class="card h-100" id="contact-card">
+                                    <div class="card-title text-center pt-1 mb-0">
+                                       <h2 class="m-0 mb-3 pt-1 pb-2" style="letter-spacing: 1px; color: #4aaaa5;">get in touch</h2> 
+                                    </div>
+                                    
+                                    <p class="card-text p-2">Maybe you want to contact me for some strange reason. Perhaps you wanted to ask me a question, and no, this contact form will not work if you try to send me something. But it is a work in progress, and if you hang around long enough it will eventually function as intended. Once I learn how to make that possible. In the meantime, feel free to bookmark this site.</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <img src="assets/icons/phone.png" alt="phone-icon" id="phone-icon">
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div class="form-group">                      
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                    <div class="col-md-7">
+                        <form class="mt-0 mx-auto">
+                            <p id="contact-inquiries" class="text-center">Have any inquiries? Drop me a message!</p>
+                            <div class="form-group">                      
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                            </div>
+        
+                            <div class="form-group">                      
+                                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                            </div>
+        
+                            <div class="form-group">                      
+                                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Subject">
+                            </div>
+        
+                            <div class="form-group">                      
+                                <textarea type="text" class="form-control" id="formGroupExampleInput4" placeholder="Leave a Message"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary" type="submit">Submit</button>
+                            </div>                    
+                        </form>
                     </div>
 
-                    <div class="form-group">                      
-                        <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Subject">
-                    </div>
 
-                    <div class="form-group">                      
-                        <textarea type="text" class="form-control" id="formGroupExampleInput4" placeholder="Leave a Message"></textarea>
-                    </div>
-                    <div class="text-center">
-                        <button class="btn btn-primary" type="submit">Submit</button>
-                    </div>                    
-                </form>
+
+                </div>
+
+
+                
             </div> 
         </header>
         

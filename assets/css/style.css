@@ -174,12 +174,22 @@ nav {
     color: #4aaaa5;
 }
 
+.port-icon {
+    width: 100%;
+}
 
 /*//////////////////// CONTACT /////////////////////*/
 
+#contact-card {
+    border: none;
+    background-color: #f5f5f5;
+    padding: 5px;
+}
+
+
 
 form {
-    width: 80%;
+    width: 100%;
     margin-top: 3rem;
 }
 
@@ -262,6 +272,11 @@ footer {
     h2 {
         font-size: 2em;
     }
+
+    #phone-icon {
+        height: 400px;
+        width: auto;
+    }
     
 }
 
@@ -277,7 +292,14 @@ footer {
         display: none;
     }
 
-    
+    #phone-icon {
+        height: 350px;
+        width: auto;
+    }
+
+    .port-icon {
+        width: 100px;
+    }
 }
 
 /* Landscape tablets and medium desktops */
@@ -291,7 +313,14 @@ h2 {
     display: none;
 }
 
+#phone-icon {
+    height: 300px;
+    width: auto;
+}
 
+.port-icon {
+    width: 90px;
+}
 
 }
 
@@ -318,6 +347,19 @@ h2 {
 
     .canvas-container {
         height: auto;
+    }
+
+    #phone-icon {
+        height: 250px;
+        width: auto;
+    }
+
+    .form-container {
+        margin: 0px 40px 0px 40px;
+    }
+
+    .port-icon {
+        width: 80px;
     }
 
 }
@@ -356,6 +398,20 @@ h2 {
 
     .canvas-container {
         height: 320px;
+    }
+
+    #phone-icon {
+        height: 250px;
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+    .port-icon {
+         display: none;
+    }
+
+    .port-icon-text {
+        display: none;
     }
 }
 

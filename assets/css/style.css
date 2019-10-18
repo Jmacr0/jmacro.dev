@@ -382,6 +382,10 @@ h2 {
         
     }
 
+    #carouselExampleControls {
+        margin-bottom: 16px;
+    }
+
     #carousel-button-1, #carousel-button-2 {
         width: 50%;
         margin: auto;

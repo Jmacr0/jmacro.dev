@@ -13,7 +13,7 @@ var myPieChart = new Chart(ctx, {
         backgroundColor: ['#ff9100', '#008cff','#ffe600', '#ddd'],
         borderWidth: 0,
         
-        data: [1, 1, 1, 21]
+        data: [1, 1, 3, 21]
       }
     ]
   },

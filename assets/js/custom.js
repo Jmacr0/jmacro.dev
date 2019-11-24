@@ -1,10 +1,3 @@
-///////////////////// NAVBAR ///////////////////////
-
-$(document).ready(function() {
-  $('a[href="' + this.location.pathname.split("").slice(1,location.pathname.length).join("") + '"]').parent().addClass('active');
-});
-
-
 ///////////////////// PORTFOLIO ///////////////////////
 
 //////// CAROUSEL CONTROLS //////////
@@ -21,7 +14,13 @@ $("#carousel-button-2").click(function(){
   $("#carouselExampleControls").carousel(1);
 });
 
+$("#carousel-button-3").click(function(){
+  $("#carouselExampleControls").carousel(2);
+});
 
+$("#carousel-button-4").click(function(){
+  $("#carouselExampleControls").carousel(3);
+});
 
 ///////////////////// ABOUT ///////////////////////
 

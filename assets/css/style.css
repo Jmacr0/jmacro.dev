@@ -73,6 +73,7 @@ nav {
     margin-top: 5rem;
     margin-bottom: 7rem;
     padding-top: 2rem;
+    border-radius: 0;
 }
 
 .card h4 {
@@ -224,7 +225,7 @@ footer {
 
 
 #copy {
-    color: #ffffff;
+    color: #383838;
     font-size: 0.9rem;
     
 }
@@ -239,7 +240,7 @@ footer {
 .icons-wrapper span a {
     font-size: 3em;
     text-decoration: none;
-    color: #ffffff;
+    color: #383838;
     padding: 5px 25px 5px 25px;
 }
 
@@ -332,7 +333,7 @@ h2 {
     }
 
     #copy {
-        color: #ffffff;
+        color: #383838;
         font-size: 0.8rem;
         
     }
@@ -377,7 +378,7 @@ h2 {
     }
 
     #copy {
-        color: #ffffff;
+        color: #383838;
         font-size: 0.7rem;
         
     }

@@ -42,8 +42,7 @@ nav {
 }
 
 #navbarNav .navbar-nav .nav-item a:hover {
-    background-color: #4aaaa5;
-    color: #ffffff;
+    color: #d1d1d1;
 }
 
 .container .navbar-brand, .container .navbar-brand:focus {

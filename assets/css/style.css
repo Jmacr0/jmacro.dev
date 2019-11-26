@@ -17,7 +17,6 @@ h1 {
 }
 
 
-
 /*//////////////////// NAVBAR /////////////////////*/
 
 nav {
@@ -26,13 +25,11 @@ nav {
 
 .navbar {
     background-color: #ffffff;
-    padding: 0;
-    
+    padding: 0;    
 }
 
 .navbar-toggler {
-    padding: 5px;
-    
+    padding: 5px;    
 }
 
 #navbarNav .navbar-nav .nav-item a {
@@ -62,10 +59,7 @@ nav {
     background-color: #3b8683; 
 }
 
-
 /*//////////////////// ABOUT /////////////////////*/
-
-
 
 .jumbotron {
     background-color: #ffffff;    
@@ -86,17 +80,13 @@ nav {
 .card-body {
     border: none;
     background-color: #fcfcfc;    
-    color: #4aaaa5;
-    
+    color: #4aaaa5;    
 }
 
 .icon-size {
     width: 100%;
-    height: auto;
-    
+    height: auto;    
 }
-
-
 
 .canvas-container {
     background-color: #fcfcfc;
@@ -107,24 +97,20 @@ nav {
     height: 100%;
 }
 
-
 /*//////////////////// PORTFOLIO /////////////////////*/
 
 #port-featured-card {
-   z-index: 1;
-    
+   z-index: 1;    
 }
 
 .list-group-item {
     padding: 12px 20px;
-    border: none;
-    
+    border: none;    
 }
 
 #carouselExampleControls {    
     height: auto;
 }
-
 
 .carousel-inner {
     background-color: #000000;
@@ -139,10 +125,8 @@ nav {
 .carousel-caption h3:hover {
     background-color: #00928bcb;
     color: #ffffff;
-    transition-duration: 0.2s;
-  
+    transition-duration: 0.2s;  
 }
-
 
 .carousel-item h3 {
     background-color: #181818ea;
@@ -152,7 +136,6 @@ nav {
     border-radius: 5px;
     font-size: 2rem;
 }
-
 
 .carousel-item img {
     opacity: 0.3;
@@ -185,8 +168,6 @@ nav {
     padding: 5px;
 }
 
-
-
 form {
     width: 100%;
     margin-top: 3rem;
@@ -198,10 +179,8 @@ form {
 }
 
 .form-group {
-    padding: 5px;
-    
+    padding: 5px;    
 }
-
 
 #formGroupExampleInput4 {    
     height: 200px;
@@ -211,29 +190,22 @@ form {
     width: 100%;
 }
 
-
 /*//////////////////// FOOTER /////////////////////*/
 
 footer {
     width: 100vw;
     background: #181818;
-    border-top: 8px solid #4aaaa5;
-    
+    border-top: 8px solid #4aaaa5;    
 }
-
 
 #copy {
     color: #383838;
-    font-size: 0.9rem;
-    
+    font-size: 0.9rem;    
 }
 
 .icons-wrapper li {
-    display: inline-flex;
-    
-   
+    display: inline-flex;   
 }
-
 
 .icons-wrapper span a {
     font-size: 3em;
@@ -247,7 +219,6 @@ footer {
     transition-duration: 0.2s;
 }
 
-
 #linkedin a:hover {
     color: #007bb5;
 }
@@ -259,10 +230,6 @@ footer {
 #twitter a:hover {
     color: #1da1f2;
 }
-
-
-
-
 
 /*//////////////////////////////// MEDIA QUERIES ////////////////////////////////*/
 
@@ -332,8 +299,7 @@ h2 {
 
     #copy {
         color: #383838;
-        font-size: 0.8rem;
-        
+        font-size: 0.8rem;        
     }
 
     #contact-inquiries {
@@ -377,8 +343,7 @@ h2 {
 
     #copy {
         color: #383838;
-        font-size: 0.7rem;
-        
+        font-size: 0.7rem;        
     }
 
     #carouselExampleControls {
@@ -441,11 +406,8 @@ h2 {
 
     #carousel-button-1, #carousel-button-2, #carousel-button-3, #carousel-button-4 {
         width: 70%;
-        margin: auto;
-        
-    }
- 
-  
+        margin: auto;        
+    }  
 
     .icon-size {
         height: 90px;

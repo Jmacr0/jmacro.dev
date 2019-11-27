@@ -2,11 +2,18 @@ window.onbeforeunload = function () {
     window.scrollTo(0, 0);
 }
 
+$('#navbarNav').on('click', function () {
+    event.preventDefault();
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $($(event.target).attr('href')).offset().top
+    }, 1000);
+})
+
 $(document).scroll(function () {
     var nav = $('#menu');
     var navItems = $('#navbarNav');
     var navBrand = $('.navbar-brand');
-    if ($(document).scrollTop() > (window.innerHeight)) {
+    if ($(document).scrollTop() > (window.innerHeight)*0.35) {
         navBrand.attr('style', 'background-color: #4aaaa5;');
         navItems.removeClass('navbar-dark')
         navItems.addClass('navbar-light');

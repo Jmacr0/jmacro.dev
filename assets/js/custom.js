@@ -1,3 +1,9 @@
+$(document).ready(function(){
+  setInterval(function(){
+    $('span').toggle();
+  }, 500);
+})
+
 // Scroll to Section
 
 $('#navbarNav').on('click', function () {

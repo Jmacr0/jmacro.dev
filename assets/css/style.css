@@ -6,26 +6,10 @@ body {
    
 }
 
-h1 {
-    animation: fadein 1.5s;
-   
-}
-
-@keyframes fadein {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
-
 /*//////////////////// NAVBAR /////////////////////*/
 
-nav {
-    border-bottom: 2px solid rgb(73, 73, 73);
-}
-
 .navbar {
-    background-color: #ffffff;
-    padding: 0;    
+    padding: 0;
 }
 
 .navbar-toggler {
@@ -38,12 +22,7 @@ nav {
     font-size: 1.2em;
 }
 
-#navbarNav .navbar-nav .nav-item a:hover {
-    color: #d1d1d1;
-}
-
 .container .navbar-brand, .container .navbar-brand:focus {
-    background-color: #4aaaa5;
     color: #ffffff;
     padding: 13px 10px 13px 10px;
     font-weight: bold;
@@ -61,10 +40,14 @@ nav {
 
 /*//////////////////// ABOUT /////////////////////*/
 
+h1 {
+    color: #ffffff;
+}
+
 .jumbotron {
     background-color: #ffffff;    
     margin-top: 5rem;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
     padding-top: 2rem;
     border-radius: 0;
 }

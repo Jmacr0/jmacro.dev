@@ -10,12 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="favicon.ico" />
-
     <title>Jmacro</title>
 </head>
 
 <body>
-    <nav id="menu" class="navbar navbar-expand-md fixed-top navbar-light">
+    <nav id="menu" class="navbar navbar-expand-md fixed-top">
         <div class="container col-12 col-lg-10 col-xl-8 pl-0 pr-0">
             <a class="navbar-brand" href="index.html">Jmacro</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -23,13 +22,13 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse navbar-dark" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#about">about</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#portfolio" style="height: 100;">portfolio</a>
+                        <a class="nav-link" href="#portfolio">portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">contact</a>
@@ -39,9 +38,21 @@
         </div>
     </nav>
 
+    <section class="jumbotron-fluid" style="height: 100vh;">
+        <div class="container h-100 mx-auto">
+            <div class="row h-100">
+                <div class="col text-center my-auto">
+                    <h1>Jon Anthony Macrohon</h1>
+                    <h2 class="h2">Full Stack Software Developer <span> |</span></h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <main class="jumbotron container-fluid col-lg-10 col-xl-8 mb-0">
         <header>
-            <h1 id="about">Jon <strong>Macrohon</strong></h1>
+            <h2 id="about">About</h2>
             <hr>
             <div class="row rounded">
                 <div class="col-sm-6 col-md-4 p-0 card-body">
@@ -100,7 +111,7 @@
 
     <div class="jumbotron container-fluid col-lg-10 col-xl-8 my-0">
         <section>
-            <h1 class="col-md-4 p-0" id="portfolio">Portfolio</h1>
+            <h2 class="col-md-4 p-0" id="portfolio">Portfolio</h2>
             <hr>
             <div class="row">
                 <div class="card col-md-3 px-0 mx-auto mb-3" id="port-featured-card">
@@ -214,7 +225,7 @@
 
     <div class="jumbotron container-fluid col-lg-10 col-xl-8 mt-0">
         <header>
-            <h1 class="col-md-4" id="contact">Contact</h1>
+            <h2 class="col-md-4" id="contact">Contact</h2>
             <hr>
             <div class="container pt-4 pb-5 form-container mx-auto">
                 <div class="row">
@@ -265,32 +276,22 @@
     </div>
 
 
-    <footer class="fixed-bottom">
+    <footer>
         <div class="container">
             <div class="foot-nav">
-
                 <div class="row">
-
                     <div class="col-md-6  icons-wrapper text-center mx-auto">
-
                         <span id="linkedin"><a href="https://www.linkedin.com/in/jon-anthony-macrohon-1b6881a3/"
                                 target="_blank" class="fa fa-linkedin"></a></span>
-
                         <span id="github"><a href="https://www.github.com/Jmacr0" target="blank"
                                 class="fa fa-github"></a></span>
-
                         <span id="twitter"><a href="https://twitter.com/jmacr0_" target="_blank"
                                 class="fa fa-twitter"></a></span>
-
                     </div>
-
-
                     <div class="col-md-6 text-center my-auto">
                         <span id="copy">&copy; COPYRIGHT JMACRO LIMITED ALL RIGHTS RESERVED</span>
                     </div>
-
                 </div>
-
             </div>
         </div>
     </footer>
@@ -305,6 +306,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="./assets/js/navbar.js"></script>
     <script src="assets/js/doughnut.js"></script>
 </body>
 

@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="favicon.ico" />
     <title>Jmacro</title>
 </head>
 
 <body>
-    <nav id="menu" class="navbar navbar-expand-md fixed-top">
+    <nav id="nav" class="navbar navbar-expand-md fixed-top navbar-light">
         <div class="container col-12 col-lg-10 col-xl-8 pl-0 pr-0">
             <a class="navbar-brand" href="index.html">Jmacro</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -38,259 +39,223 @@
         </div>
     </nav>
 
-    <section class="jumbotron-fluid" style="height: 100vh;">
+    <header class="jumbotron-fluid">
         <div class="container h-100 mx-auto">
             <div class="row h-100">
-                <div class="col text-center my-auto">
-                    <h1>Jon Anthony Macrohon</h1>
-                    <h2 class="h2">Full Stack Software Developer <span class="blinker"> |</span></h2>
+                <div class="col text-center m-auto">
+                    <h1 data-aos="fade-down" data-aos-duration="1500">Jon Anthony Macrohon</h1>
+                    <h2 data-aos="fade-right" data-aos-duration="2500">Full Stack Software Developer<span
+                            class="blinker">|</span></h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="container-fluid">
+        <h2 id="about" data-aos="fade-left" data-aos-duration="1000">About</h2>        
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h3 class="pt-4">Full Stack Developer: 🚧 ETA March 2020</h3>
+                <p>I am a Full Stack Developer. Over the course of 24 weeks I will flesh out this website to
+                    showcase the skills
+                    I have attained through my time at Monash Coding Bootcamp. I have included multiple
+                    <b><em>Full Stack Applications</em></b> and will become proficient in creating fully fledged
+                    products. Ultimately I wish to find a position in the tech industry and believe this bootcamp
+                    will assist in positioning me well for this career transition</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h3 class="pt-2">Background 👨‍⚕️💉</h3>
+                <p>I was born and raised in Auckland, New Zealand. I am a University of Auckland graduate with a
+                    Bachelors Degree in Nursing. I have worked as a Registered Nurse for five years specialising in
+                    Perioperative Nursing. I have experience in different surgical specialities including: general,
+                    urology, plastics, gynaecology, orthopaedic, and liver procedures. Recently I've dropped to
+                    part-time work in order to dedicate more time to the bootcamp and software development.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <canvas data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" height="500px"
+                    id="lineChart"></canvas>
+            </div>
+        </div>
+    </main>
+
+    <section id="portfolio" class="container-fluid">
+        <h2 data-aos="fade-left" data-aos-duration="1000">Portfolio</h2>
+        <!-- <div class="row">
+            <div class="card col-md-3 px-0 mx-auto mb-3" id="port-featured-card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-center">
+                        <button id="carousel-button-1" class="btn btn-info">ReadMe</button>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <button id="carousel-button-2" class="btn btn-info">Weather Dashboard</button>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <button id="carousel-button-3" class="btn btn-info">Day Planner</button>
+                    </li>
+                    <li class="list-group-item text-center">
+                        <button id="carousel-button-4" class="btn btn-info">Code Quiz</button>
+                    </li>
+                </ul>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide col-md-8 col-lg-9" data-ride="carousel">
+                <div class="carousel-inner shadow-lg rounded mx-auto">
+                    <div class="carousel-item active">
+                        <a href="https://jmacr0.github.io/project_one/">
+                            <img class="d-block w-100" src="assets/images/read-me.png" alt="First slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="https://jmacr0.github.io/my_portfolio/" target="_blank">
+                                <h3>ReadMe</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://jmacr0.github.io/weather_dashboard/">
+                            <img class="d-block w-100" src="assets/images/weather-dashboard.png" alt="Second slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="https://jmacr0.github.io/password_generator/" target="_blank">
+                                <h3>Weather Dashboard</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://jmacr0.github.io/day_planner/">
+                            <img class="d-block w-100" src="assets/images/day-planner.png" alt="Third slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="https://jmacr0.github.io/password_generator/" target="_blank">
+                                <h3>Day Planner</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://jmacr0.github.io/code_quiz/">
+                            <img class="d-block w-100" src="assets/images/code-quiz.png" alt="Fourth slide">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <a href="https://jmacr0.github.io/password_generator/" target="_blank">
+                                <h3>Code Quiz</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="card col-md-4 col-lg-3 px-2 pb-2 mx-auto" id="app-featured-card">
+                <div class="card-title text-center pt-1 mb-0">
+                    <h3 class="m-0 mb-3 pt-1" style="letter-spacing: 1px; color: #4aaaa5;">applications</h3>
+                </div>
+                <p class="card-text p-2"><em><a href="https://jmacr0.github.io/my_portfolio/"
+                            target="_blank">ReadMe</a></em> A Book Search Application <strong>AJAX, JQuery,
+                        Javascript, HTML5, CSS3</strong></p>
+
+                <p class="card-text p-2"><em><a href="https://jmacr0.github.io/weather_dashboard/"
+                            target="_blank">Weather
+                            Dashboard</a></em> A Weather Application that display city current weather and 5 Day
+                    forecast <strong>AJAX, jQuery, Javascript, HTML, CSS</strong></p>
+                <p class="card-text p-2"><em><a href="https://jmacr0.github.io/" target="_blank">Day
+                            Planner</a></em> A Day Scheduler that uses local storage to store inputs <strong>jQuery,
+                        Javascript, HTML, CSS</strong></p>
+                <p class="card-text p-2"><em><a href="https://jmacr0.github.io/" target="_blank">Code Quiz</a></em>
+                    A
+                    Quiz that implements a timer and score system <strong>jQuery, Javascript, HTML, CSS</strong></p>
+            </div>
+        </div> -->
+        <div class="row mt-4 pt-4">
+            <div class="col-md-3 text-center">
+                <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
+                <p class="port-icon-text">ReadMe</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
+                <p class="port-icon-text">Weather Dashboard</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
+                <p class="port-icon-text">Day Planner</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
+                <p class="port-icon-text">Code Quiz</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container-fluid">
+        <h2 data-aos="fade-left" data-aos-duration="1000">Contact</h2>
+        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"
+            class="container form-container pt-4 pb-5 mx-auto">
+            <div class="row">
+                <div class="col-md-5 mx-auto">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card-title text-center pt-1 mb-0">
+                                <h3 class="m-0 mb-3 pt-1 pb-2" style="letter-spacing: 1px; color: #4aaaa5;">get in
+                                    touch</h3>
+                            </div>
+                            <p class="card-text p-2">Maybe you want to contact me for some strange reason. Perhaps
+                                you wanted to ask me a question. Well fortunately for you my friend, this contact
+                                page most definitely works! Go ahead and give it a try.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="assets/icons/phone.png" alt="phone-icon" id="phone-icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <form class="mt-0 mx-auto" action="https://formspree.io/mvooeqqr" method="POST">
+                        <p id="contact-inquiries" class="text-center">Have any inquiries? Drop me a message!</p>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="_replyto" class="form-control" id="formGroupExampleInput2"
+                                placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" class="form-control" id="formGroupExampleInput4"
+                                placeholder="Leave a Message"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <main class="jumbotron container-fluid col-lg-10 col-xl-8 mb-0">
-        <header>
-            <h2 id="about">About</h2>
-            <hr>
-            <div class="row rounded">
-                <div class="col-sm-6 col-md-4 p-0 card-body">
-                    <img src="assets/images/me.jpg" id="profile" class="rounded img-fluid p-2" alt="profile-picture">
-                </div>
-                <div class="col-sm-6 col-md-4 p-0 text-center card-body">
-                    <div class="row p-0 m-0 mb-4">
-                        <div class="card card-about w-100 h-100">
-                            <div class="card-body">
-                                <h4 class="card-title">Welcome</h4>
-                                <p class="card-text mb-0">Est. 1993.</p>
-                                <p class="card-text">Auckland. New Zealand.</p>
-                                <p class="card-text mb-0">Bootcamp. 2019.</p>
-                                <p class="card-text">Melbourne, VIC. Australia.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row m-0 p-0">
-                        <div class="col-3 p-1"><img src="assets/icons/coding.png" alt="coding-icon" class="icon-size">
-                        </div>
-                        <div class="col-3 p-1"><img src="assets/icons/html5.png" alt="html5-icon" class="icon-size">
-                        </div>
-                        <div class="col-3 p-1"><img src="assets/icons/css3.png" alt="css3-icon" class="icon-size"></div>
-                        <div class="col-3 p-1"><img src="assets/icons/js.png" alt="js-icon" class="icon-size"></div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-4 p-0 canvas-container">
-                    <canvas id="lineChart" class="p-2"></canvas>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="pt-4 index-h2">Full Stack Developer: 🚧 ETA March 2020</h2>
-                    <p>I am a Full Stack Developer. Over the course of 24 weeks I will flesh out this website to
-                        showcase the skills
-                        I have attained through my time at Monash Coding Bootcamp. I have included multiple
-                        <b><em>Full Stack Applications</em></b> and will become proficient in creating fully fledged
-                        products. Ultimately I wish to find a position in the tech industry and believe this bootcamp
-                        will assist in positioning me well for this career transition</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <h2 class="pt-2 index-h2">Background 👨‍⚕️💉</h2>
-                    <p>I was born and raised in Auckland, New Zealand. I am a University of Auckland graduate with a
-                        Bachelors Degree in Nursing. I have worked as a Registered Nurse for five years specialising in
-                        Perioperative Nursing. I have experience in different surgical specialities including: general,
-                        urology, plastics, gynaecology, orthopaedic, and liver procedures. Recently I've dropped to
-                        part-time work in order to dedicate more time to the bootcamp and software development.</p>
-                </div>
-            </div>
-        </header>
-    </main>
-
-    <div class="jumbotron container-fluid col-lg-10 col-xl-8 my-0">
-        <section>
-            <h2 class="col-md-4 p-0" id="portfolio">Portfolio</h2>
-            <hr>
-            <div class="row">
-                <div class="card col-md-3 px-0 mx-auto mb-3" id="port-featured-card">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item text-center">
-                            <button id="carousel-button-1" class="btn btn-info">ReadMe</button>
-                        </li>
-                        <li class="list-group-item text-center">
-                            <button id="carousel-button-2" class="btn btn-info">Weather Dashboard</button>
-                        </li>
-                        <li class="list-group-item text-center">
-                            <button id="carousel-button-3" class="btn btn-info">Day Planner</button>
-                        </li>
-                        <li class="list-group-item text-center">
-                            <button id="carousel-button-4" class="btn btn-info">Code Quiz</button>
-                        </li>
-                    </ul>
-                </div>
-                <div id="carouselExampleControls" class="carousel slide col-md-8 col-lg-9" data-ride="carousel">
-                    <div class="carousel-inner shadow-lg rounded mx-auto">
-                        <div class="carousel-item active">
-                            <a href="https://jmacr0.github.io/project_one/">
-                                <img class="d-block w-100" src="assets/images/read-me.png" alt="First slide">
-                            </a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://jmacr0.github.io/my_portfolio/" target="_blank">
-                                    <h3>ReadMe</h3>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="https://jmacr0.github.io/weather_dashboard/">
-                                <img class="d-block w-100" src="assets/images/weather-dashboard.png" alt="Second slide">
-                            </a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://jmacr0.github.io/password_generator/" target="_blank">
-                                    <h3>Weather Dashboard</h3>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="https://jmacr0.github.io/day_planner/">
-                                <img class="d-block w-100" src="assets/images/day-planner.png" alt="Third slide">
-                            </a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://jmacr0.github.io/password_generator/" target="_blank">
-                                    <h3>Day Planner</h3>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="https://jmacr0.github.io/code_quiz/">
-                                <img class="d-block w-100" src="assets/images/code-quiz.png" alt="Fourth slide">
-                            </a>
-                            <div class="carousel-caption d-none d-md-block">
-                                <a href="https://jmacr0.github.io/password_generator/" target="_blank">
-                                    <h3>Code Quiz</h3>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div>
-                <div class="card col-md-4 col-lg-3 px-2 pb-2 mx-auto" id="app-featured-card">
-                    <div class="card-title text-center pt-1 mb-0">
-                        <h2 class="m-0 mb-3 pt-1" style="letter-spacing: 1px; color: #4aaaa5;">applications</h2>
-                    </div>
-                    <p class="card-text p-2"><em><a href="https://jmacr0.github.io/my_portfolio/"
-                                target="_blank">ReadMe</a></em> A Book Search Application <strong>AJAX, JQuery,
-                            Javascript, HTML5, CSS3</strong></p>
-
-                    <p class="card-text p-2"><em><a href="https://jmacr0.github.io/weather_dashboard/"
-                                target="_blank">Weather
-                                Dashboard</a></em> A Weather Application that display city current weather and 5 Day
-                        forecast <strong>AJAX, jQuery, Javascript, HTML, CSS</strong></p>
-                    <p class="card-text p-2"><em><a href="https://jmacr0.github.io/" target="_blank">Day
-                                Planner</a></em> A Day Scheduler that uses local storage to store inputs <strong>jQuery,
-                            Javascript, HTML, CSS</strong></p>
-                    <p class="card-text p-2"><em><a href="https://jmacr0.github.io/" target="_blank">Code Quiz</a></em>
-                        A
-                        Quiz that implements a timer and score system <strong>jQuery, Javascript, HTML, CSS</strong></p>
-                </div>
-            </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-md-3 text-center">
-                    <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
-                    <p class="port-icon-text">ReadMe</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
-                    <p class="port-icon-text">Weather Dashboard</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
-                    <p class="port-icon-text">Day Planner</p>
-                </div>
-                <div class="col-md-3 text-center">
-                    <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
-                    <p class="port-icon-text">Code Quiz</p>
-                </div>
-            </div>
-        </section>
-    </div>
-
-    <div class="jumbotron container-fluid col-lg-10 col-xl-8 mt-0">
-        <header>
-            <h2 class="col-md-4" id="contact">Contact</h2>
-            <hr>
-            <div class="container pt-4 pb-5 form-container mx-auto">
-                <div class="row">
-                    <div class="col-md-5 mx-auto">
-                        <div class="row">
-                            <div class="card h-100" id="contact-card">
-                                <div class="card-title text-center pt-1 mb-0">
-                                    <h2 class="m-0 mb-3 pt-1 pb-2" style="letter-spacing: 1px; color: #4aaaa5;">get in
-                                        touch</h2>
-                                </div>
-                                <p class="card-text p-2">Maybe you want to contact me for some strange reason. Perhaps
-                                    you wanted to ask me a question. Well fortunately for you my friend, this contact
-                                    page most definitely works! Go ahead and give it a try.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 text-center">
-                                <img src="assets/icons/phone.png" alt="phone-icon" id="phone-icon">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-7">
-                        <form class="mt-0 mx-auto" action="https://formspree.io/mvooeqqr" method="POST">
-                            <p id="contact-inquiries" class="text-center">Have any inquiries? Drop me a message!</p>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="_replyto" class="form-control" id="formGroupExampleInput2"
-                                    placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="formGroupExampleInput3"
-                                    placeholder="Subject">
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" class="form-control" id="formGroupExampleInput4"
-                                    placeholder="Leave a Message"></textarea>
-                            </div>
-                            <div class="text-center">
-                                <button class="btn btn-primary" type="submit">Submit</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </header>
-    </div>
-
-
     <footer>
         <div class="container">
-            <div class="foot-nav">
-                <div class="row">
-                    <div class="col-md-6  icons-wrapper text-center mx-auto">
-                        <span id="linkedin"><a href="https://www.linkedin.com/in/jon-anthony-macrohon-1b6881a3/"
-                                target="_blank" class="fa fa-linkedin"></a></span>
-                        <span id="github"><a href="https://www.github.com/Jmacr0" target="blank"
-                                class="fa fa-github"></a></span>
-                        <span id="twitter"><a href="https://twitter.com/jmacr0_" target="_blank"
-                                class="fa fa-twitter"></a></span>
-                    </div>
-                    <div class="col-md-6 text-center my-auto">
-                        <span id="copy">&copy; COPYRIGHT JMACRO LIMITED ALL RIGHTS RESERVED</span>
-                    </div>
+            <div class="row">
+                <div class="col-md-6  icons-wrapper text-center mx-auto">
+                    <span id="linkedin"><a href="https://www.linkedin.com/in/jon-anthony-macrohon-1b6881a3/"
+                            target="_blank" class="fa fa-linkedin"></a></span>
+                    <span id="github"><a href="https://www.github.com/Jmacr0" target="blank"
+                            class="fa fa-github"></a></span>
+                    <span id="twitter"><a href="https://twitter.com/jmacr0_" target="_blank"
+                            class="fa fa-twitter"></a></span>
+                </div>
+                <div class="col-md-6 text-center my-auto">
+                    <span id="copy">&copy; COPYRIGHT JMACRO LIMITED ALL RIGHTS RESERVED</span>
                 </div>
             </div>
         </div>
@@ -305,6 +270,8 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/navbar.js"></script>
     <script src="assets/js/doughnut.js"></script>

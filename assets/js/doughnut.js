@@ -12,7 +12,6 @@ var myPieChart = new Chart(ctx, {
         label: 'Topics',
         backgroundColor: ['#ff9100', '#008cff','#ffe600','#4aaaa5', '#00ad00', '#ddd'],
         borderWidth: 0,
-        
         data: [1, 1, 4, 2, 1, 16]
       }
     ]
@@ -23,7 +22,8 @@ var myPieChart = new Chart(ctx, {
     title: {
       display: true,
       text: "Bootcamp Progress",
-      fontSize: 20
+      fontSize: 20,
+      fontColor: "#ffffff"
     },
     
    responsive: true,
@@ -33,8 +33,11 @@ var myPieChart = new Chart(ctx, {
     },
     maintainAspectRatio : false,
     legend: {
-      display: false,
-      position: 'right',
+      display: true,
+      position: 'bottom',
+      labels: {
+        fontColor: '#ffffff'
+      }
     }
   }
   

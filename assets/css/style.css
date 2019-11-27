@@ -1,15 +1,42 @@
 /*//////////////////// UNIVERSAL /////////////////////*/
 
-body {
+body, #nav, footer {
     background-image: url("../images/what-the-hex-dark/what-the-hex-dark.png");
     background-repeat: repeat;
-   
+    background-attachment: fixed;
 }
+
+header {
+    height: 100vh;
+}
+
+.container-fluid {
+    padding: 2em;
+}
+
+main {
+    background-image: url("../images/me-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#contact {
+    background-image: url("../images/river-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2, h3, p {
+    color: #ffffff;
+}
+
 
 /*//////////////////// NAVBAR /////////////////////*/
 
-.navbar {
+#nav {
     padding: 0;
+    display: none;
+    background-color: #181818;
 }
 
 .navbar-toggler {
@@ -68,15 +95,6 @@ h1 {
 .icon-size {
     width: 100%;
     height: auto;    
-}
-
-.canvas-container {
-    background-color: #fcfcfc;
-    
-}
-
-#lineChart {
-    height: 100%;
 }
 
 /*//////////////////// PORTFOLIO /////////////////////*/
@@ -144,11 +162,6 @@ h1 {
 
 /*//////////////////// CONTACT /////////////////////*/
 
-#contact-card {
-    border: none;
-    background-color: #f5f5f5;
-    padding: 5px;
-}
 
 form {
     width: 100%;
@@ -156,7 +169,7 @@ form {
 }
 
 .form-container {
-    background-color: #f5f5f5;
+    background-color: #000000a1;
     border-radius: 10px;
 }
 
@@ -176,8 +189,6 @@ form {
 
 footer {
     width: 100vw;
-    background: #181818;
-    border-top: 8px solid #4aaaa5;    
 }
 
 #copy {
@@ -197,7 +208,6 @@ footer {
 }
 
 .icons-wrapper span a:hover {
-    background-color: #3b3b3b;
     transition-duration: 0.2s;
 }
 
@@ -206,7 +216,7 @@ footer {
 }
 
 #github a:hover {
-    color: #000000;
+    color: #181818;
 }
 
 #twitter a:hover {
@@ -217,7 +227,7 @@ footer {
 
 @media (min-width: 1600px) {
 
-    h2 {
+    h3 {
         font-size: 2em;
     }
 
@@ -232,7 +242,7 @@ footer {
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
 
-    h2 {
+    h3 {
         font-size: 1.7em;
     }
 
@@ -253,7 +263,7 @@ footer {
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-h2 {
+h3 {
     font-size: 1.8em;
 }
 
@@ -275,7 +285,7 @@ h2 {
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
 
-    h2 {
+    h3 {
         font-size: 1.7em;
     }
 
@@ -314,7 +324,7 @@ h2 {
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
 
-    h2 {
+    h3 {
         font-size: 1.6em;
     }
 
@@ -368,7 +378,7 @@ h2 {
 
 @media (max-width: 738px) {
 
-    h2 {
+    h3 {
         font-size: 1.2em;
     }
 
@@ -378,7 +388,7 @@ h2 {
 
 
 @media (max-width: 576px) {
-    .index-h2 {
+    .index-h3 {
         font-size: 1em;
     }
 
@@ -405,7 +415,7 @@ h2 {
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
 
-    .index-h2 {
+    .index-h3 {
         margin-bottom: 10px;
     }    
 

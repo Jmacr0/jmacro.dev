@@ -46,7 +46,7 @@
                     <h1 data-aos="fade-down" data-aos-duration="1500">Jon Anthony Macrohon</h1>
                     <h2 data-aos="fade-right" data-aos-duration="2500">Full Stack Software Developer<span
                             class="blinker">|</span></h2>
-                    
+
                 </div>
             </div>
         </div>
@@ -85,24 +85,91 @@
     </main>
 
     <section id="portfolio" class="container-fluid">
-        <h2 data-aos="fade-left" data-aos-duration="1000">Portfolio</h2>
-       
-        <div class="row mt-4 pt-4">
-            <div class="col-md-3 text-center">
-                <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
-                <p class="port-icon-text">ReadMe</p>
+        <h2 data-aos="fade-left" data-aos-duration="1000" class="mb-4">Portfolio</h2>
+        <div class="row">
+            <div class="col-sm-4 pointer" data-toggle="modal" data-target="#readme-modal">
+                <h3 class="app-name" data-aos="fade-left" data-aos-duration="1000">ReadMe</h3>
+                <div class="modal fade" id="readme-modal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">ReadMe Application</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-dark">
+                                    ReadMe is a book search application that takes in multiple user set criteria and
+                                    filters book results accordingly. The random function allow users to search for
+                                    random books. Finally, the application allows users to save bookes into their
+                                    favourites and displays them in the favourites page. Once done, they are able to
+                                    remove them from favourites.</p>
+                                <img src="assets/images/read-me.png" alt="ReadMe">
+                                <p class="text-dark font-weight-bold text-center">AJAX jQuery Javascript HTML CSS</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://jmacr0.github.io/project_one">Live Version</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 text-center">
-                <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
-                <p class="port-icon-text">Weather Dashboard</p>
+            <div class="col-sm-4 pointer" data-toggle="modal" data-target="#weather-dashboard-modal">
+                <h3 class="app-name" data-aos="fade-left" data-aos-duration="1500">Weather</h3>
+                <div class="modal fade" id="weather-dashboard-modal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Weather Dashboard Application</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-dark">
+                                    The Weather Dashboard Application allows users to search the current weather by city
+                                    name. There is also a five day forecast display to show the upcoming weather.
+                                </p>
+                                <img src="assets/images/weather-dashboard.png" alt="Weather-App">
+                                <p class="text-dark font-weight-bold text-center">AJAX jQuery Javascript HTML CSS</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://jmacr0.github.io/weather_dashboard">Live Version</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-3 text-center">
-                <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
-                <p class="port-icon-text">Day Planner</p>
-            </div>
-            <div class="col-md-3 text-center">
-                <img src="assets/icons/locked.png" alt="locked-icon" class="port-icon">
-                <p class="port-icon-text">Code Quiz</p>
+            <div class="col-sm-4 pointer" data-toggle="modal" data-target="#code-quiz-modal">
+                <h3 class="app-name" data-aos="fade-left" data-aos-duration="2000">Quiz</h3>
+                <div class="modal fade" id="code-quiz-modal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Code Quiz Application</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-dark">
+                                    This is a Quiz style application that asks users a set of questions and displays
+                                    multiple answers. A timer is implemented and the game ends if the player completes
+                                    all questions or runs out of time. The score is determined by remianing time left at
+                                    the end. Time is deducted for each question answered inccorectly</p>
+                                <img src="assets/images/code-quiz.png" alt="code-quiz">
+                                <p class="text-dark font-weight-bold text-center">jQuery Javascript HTML CSS</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://jmacr0.github.io/code_quiz">Live Version</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

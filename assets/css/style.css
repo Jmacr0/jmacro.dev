@@ -100,66 +100,28 @@ h1 {
 
 /*//////////////////// PORTFOLIO /////////////////////*/
 
-#port-featured-card {
-   z-index: 1;    
+.pointer {
+    cursor: pointer;
 }
 
-.list-group-item {
-    padding: 12px 20px;
-    border: none;    
+.app-name {
+    border: 4px solid #202020;
+    text-align: center;
+    padding: 1em;
 }
 
-#carouselExampleControls {    
+.app-name:hover {
+    color: #cccccc;
+    border-color: #ebebeb;
+    transition: 0.2s;
+}
+
+#portfolio img {
     height: auto;
-}
-
-.carousel-inner {
-    background-color: #000000;
-    border: 6px solid #ffffff;
-}
-
-.carousel-caption a {
-    text-decoration: none;
-    color: #ececec;
-}
-
-.carousel-caption h3:hover {
-    background-color: #00928bcb;
-    color: #ffffff;
-    transition-duration: 0.2s;  
-}
-
-.carousel-item h3 {
-    background-color: #181818ea;
     width: 100%;
-    margin: 0px 0px 30px 0px;
-    padding: 20px 10px 20px 10px;
-    border-radius: 5px;
-    font-size: 2rem;
+    margin-bottom: 2em;
 }
 
-.carousel-item img {
-    opacity: 0.3;
-}
-
-.carousel-item img:hover {
-    opacity: 0.5;
-    transition-duration: 0.2s;
-}
-
-.card-text a {
-    text-decoration: none;
-    color: teal;
-}
-
-.card-text a:hover {
-    transition-duration: 0.1s;
-    color: #4aaaa5;
-}
-
-.port-icon {
-    width: 100%;
-}
 
 /*//////////////////// CONTACT /////////////////////*/
 
@@ -217,7 +179,7 @@ footer {
 }
 
 #github a:hover {
-    color: #181818;
+    color: #b4b4b4;
 }
 
 #twitter a:hover {

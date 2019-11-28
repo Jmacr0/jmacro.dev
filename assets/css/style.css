@@ -5,7 +5,6 @@
     - Limit overflow-x on gloabl wrapper
     - child elements are restricted/inherit this property
 */
-
 body, #nav, footer {
     background-image: url("../images/what-the-hex-dark/what-the-hex-dark.png");
     background-repeat: repeat;

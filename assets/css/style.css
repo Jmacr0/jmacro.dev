@@ -58,12 +58,10 @@ h2, h3, p {
 
 .container .navbar-brand:hover {
     color: #ebebeb;
-    background-color: #439995;
     transition-duration: 0.2s; 
 }
 .container .navbar-brand:active {
     color: #acacac;
-    background-color: #3b8683; 
 }
 
 /*//////////////////// ABOUT /////////////////////*/

@@ -1,6 +1,6 @@
-# My Portfolio 
+# Professional Portfolio 👤
 ---
-The main purpose for this application is as a repository for all my applications which showcase my skills and abilities 👨🏻‍💻
+The purpose for this application is a respository of my applications which showcase the skills and abilities I have as a full stack software developer 👨🏻‍💻
 
 ```
 As A Developer
@@ -8,27 +8,29 @@ As A Developer
 I Want A Deployed Portfolio
 
 So That I can showcase my applications to potential emploers and clients
+
 ```
 
 
-**Live Version:** https://jmacr0.github.io 
+**Live Version 🚀** https://jmacro.dev/
 
 ---
-### Contents
+### Contents 📝
 
 This application consists of a Single Page divided into three sections:
 
 
-#### About
-
+#### 1. About
+```
 A brief about myself and my goals for the future.
+```
 
+#### 2. Portfolio
+```
+A showcase of projects I have created / collaborated with.
+```
 
-#### Portfolio
-
-A showcase of projects I have created / collaborated with. (placeholders used for the time being)
-
-
-#### Contact
-
-A simple contact page people can direct messages to me. (Using Formspree)
+#### 3. Contact
+```
+A simple contact page people can direct messages to me (Using Formspree).
+```

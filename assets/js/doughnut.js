@@ -6,13 +6,13 @@ Chart.defaults.scale.ticks.beginAtZero = true;
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ['HTML', 'CSS', 'Javascript', 'Project One', 'Node.js', 'Locked'],
+    labels: ['HTML', 'CSS', 'Javascript', 'Project One', 'Node.js', 'ES6', 'mySQL', 'Locked'],
     datasets: [
       {
         label: 'Topics',
-        backgroundColor: ['#ff9100', '#008cff','#ffe600','#4aaaa5', '#00ad00', '#ddd'],
+        backgroundColor: ['#ff9100', '#008cff','#ffe600','#4aaaa5', '#00ad00','#ffe600', '#57ddff', '#ddd'],
         borderWidth: 0,
-        data: [1, 1, 4, 2, 1, 16]
+        data: [1, 1, 4, 2, 2, 1, 1, 12]
       }
     ]
   },

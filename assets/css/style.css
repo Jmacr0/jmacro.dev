@@ -1,412 +1,313 @@
 /*//////////////////// UNIVERSAL /////////////////////*/
 
 body, #nav, footer {
-    background-image: url("../images/what-the-hex-dark/what-the-hex-dark.png");
-    background-repeat: repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
+	background-image: url("../images/what-the-hex-dark/what-the-hex-dark.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	overflow-x: hidden;
 }
 
 header {
-    height: 100vh;
+	height: 100vh;
 }
 
 .container-fluid {
-    padding: 2em;
+	padding: 2em;
 }
 
 main {
-    background-image: url("../images/me-background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+	background-image: url("../images/me-background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 #contact {
-    background-image: url("../images/river-background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+	background-image: url("../images/river-background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 h2, h3, p {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 .jumbotron-fluid h2 {
-   color: #929292;
+	color: #929292;
 }
 
 /*//////////////////// NAVBAR /////////////////////*/
 
 #nav {
-    padding: 0;
-    display: none;
-    background-color: #181818;
+	padding: 0;
+	display: none;
+	background-color: #181818;
 }
 
 .navbar-toggler {
-    padding: 5px;    
+	padding: 5px;
 }
 
 #navbarNav .navbar-nav .nav-item a {
-    padding: 13px 30px 14px 30px;
-    transition-duration: 0.2s;
-    font-size: 1.2em;
+	padding: 13px 30px 14px 30px;
+	transition-duration: 0.2s;
+	font-size: 1.2em;
 }
 
 .container .navbar-brand, .container .navbar-brand:focus {
-    color: #ffffff;
-    padding: 13px 10px 13px 10px;
-    font-weight: bold;
+	color: #ffffff;
+	padding: 13px 10px 13px 10px;
+	font-weight: bold;
 }
 
 .container .navbar-brand:hover {
-    color: #ebebeb;
-    transition-duration: 0.2s; 
+	color: #ebebeb;
+	transition-duration: 0.2s;
 }
+
 .container .navbar-brand:active {
-    color: #acacac;
+	color: #acacac;
 }
 
 /*//////////////////// ABOUT /////////////////////*/
 
 h1 {
-    color: #ffffff;
+	color: #ffffff;
 }
 
 .jumbotron {
-    background-color: #ffffff;    
-    margin-top: 5rem;
-    margin-bottom: 0;
-    border-radius: 0;
+	background-color: #ffffff;
+	margin-top: 5rem;
+	margin-bottom: 0;
+	border-radius: 0;
 }
 
 .card h4 {
-    font-size: 2em;
+	font-size: 2em;
 }
 
 .card-about {
-    border: none;
+	border: none;
 }
 
 .card-body {
-    border: none;
-    background-color: #fcfcfc;    
-    color: #4aaaa5;    
+	border: none;
+	background-color: #fcfcfc;
+	color: #4aaaa5;
 }
 
 .icon-size {
-    width: 100%;
-    height: auto;    
+	width: 100%;
+	height: auto;
 }
 
 /*//////////////////// PORTFOLIO /////////////////////*/
 
 .pointer {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .app-name {
-    border: 4px solid #202020;
-    text-align: center;
-    padding: 1em;
+	border: 4px solid #202020;
+	text-align: center;
+	padding: 1em;
 }
 
 .app-name:hover {
-    color: #cccccc;
-    border-color: #ebebeb;
-    transition: 0.2s;
+	color: #cccccc;
+	border-color: #ebebeb;
+	transition: 0.2s;
 }
 
 #portfolio img {
-    height: auto;
-    width: 100%;
-    margin-bottom: 2em;
+	height: auto;
+	width: 100%;
+	margin-bottom: 2em;
 }
-
 
 /*//////////////////// CONTACT /////////////////////*/
 
-
 form {
-    width: 100%;
-    margin-top: 3rem;
+	width: 100%;
+	margin-top: 3rem;
 }
 
 .form-container {
-    background-color: #000000a1;
-    border-radius: 10px;
+	background-color: #000000a1;
+	border-radius: 10px;
 }
 
 .form-group {
-    padding: 5px;    
+	padding: 5px;
 }
 
-#formGroupExampleInput4 {    
-    height: 200px;
-  }
+#formGroupExampleInput4 {
+	height: 200px;
+}
 
 .card ul button {
-    width: 100%;
+	width: 100%;
 }
 
 /*//////////////////// FOOTER /////////////////////*/
 
 footer {
-    width: 100vw;
+	width: 100vw;
 }
 
 #copy {
-    color: #383838;
-    font-size: 0.9rem;    
+	color: #383838;
+	font-size: 0.9rem;
 }
 
 .icons-wrapper li {
-    display: inline-flex;   
+	display: inline-flex;
 }
 
 .icons-wrapper span a {
-    font-size: 3em;
-    text-decoration: none;
-    color: #383838;
-    padding: 5px 25px 5px 25px;
+	font-size: 3em;
+	text-decoration: none;
+	color: #383838;
+	padding: 5px 25px 5px 25px;
 }
 
 .icons-wrapper span a:hover {
-    transition-duration: 0.2s;
+	transition-duration: 0.2s;
 }
 
 #linkedin a:hover {
-    color: #007bb5;
+	color: #007bb5;
 }
 
 #github a:hover {
-    color: #b4b4b4;
+	color: #b4b4b4;
 }
 
 #twitter a:hover {
-    color: #1da1f2;
+	color: #1da1f2;
 }
 
 /*//////////////////////////////// MEDIA QUERIES ////////////////////////////////*/
 
 @media (min-width: 1600px) {
-
-    h3 {
-        font-size: 2em;
-    }
-
-    #phone-icon {
-        height: 400px;
-        width: auto;
-    }
-    
+	h3 {
+		font-size: 2em;
+	}
+	#phone-icon {
+		height: 400px;
+		width: auto;
+	}
 }
 
-
 /* Large desktops and laptops */
+
 @media (min-width: 1200px) {
-
-    h3 {
-        font-size: 1.7em;
-    }
-
-    #port-featured-card {
-        display: none;
-    }
-
-    #phone-icon {
-        height: 350px;
-        width: auto;
-    }
-
-    .port-icon {
-        width: 100px;
-    }
+	h3 {
+		font-size: 1.7em;
+	}
+	#port-featured-card {
+		display: none;
+	}
+	#phone-icon {
+		height: 350px;
+		width: auto;
+	}
+	.port-icon {
+		width: 100px;
+	}
 }
 
 /* Landscape tablets and medium desktops */
+
 @media (min-width: 992px) and (max-width: 1199px) {
-
-h3 {
-    font-size: 1.8em;
-}
-
-#port-featured-card {
-    display: none;
-}
-
-#phone-icon {
-    height: 300px;
-    width: auto;
-}
-
-.port-icon {
-    width: 90px;
-}
-
+	h3 {
+		font-size: 1.8em;
+	}
+	#phone-icon {
+		height: 300px;
+		width: auto;
+	}
 }
 
 /* Portrait tablets and small desktops */
+
 @media (min-width: 768px) and (max-width: 991px) {
-
-    h3 {
-        font-size: 1.7em;
-    }
-
-    #copy {
-        color: #383838;
-        font-size: 0.8rem;        
-    }
-
-    #contact-inquiries {
-        font-size: 1.2em;
-    }
-
-    #port-featured-card {
-        display: none;
-    }
-
-    .canvas-container {
-        height: auto;
-    }
-
-    #phone-icon {
-        height: 250px;
-        width: auto;
-    }
-
-    .form-container {
-        margin: 0px 40px 0px 40px;
-    }
-
-    .port-icon {
-        width: 80px;
-    }
-
+	h3 {
+		font-size: 1.7em;
+	}
+	#copy {
+		color: #383838;
+		font-size: 0.8rem;
+	}
+	#contact-inquiries {
+		font-size: 1.2em;
+	}
+	.canvas-container {
+		height: auto;
+	}
+	#phone-icon {
+		height: 250px;
+		width: auto;
+	}
+	.form-container {
+		margin: 0px 40px 0px 40px;
+	}
 }
 
 /* Landscape phones and portrait tablets */
+
 @media (max-width: 767px) {
-
-    h3 {
-        font-size: 1.6em;
-    }
-
-    .icons-wrapper span a {
-        font-size: 2em;
-        
-    }
-
-    #copy {
-        color: #383838;
-        font-size: 0.7rem;        
-    }
-
-    #carouselExampleControls {
-        margin-bottom: 16px;
-    }
-
-    #carousel-button-1, #carousel-button-2, #carousel-button-3, #carousel-button-4  {
-        width: 50%;
-        margin: auto;
-        
-    }
-
-    #port-featured-card {
-        width: 94%;
-    }
-    
-    #app-featured-card {
-        width: 94%;
-    }
-
-    .canvas-container {
-        height: 320px;
-    }
-
-    #phone-icon {
-        height: 250px;
-        width: auto;
-        margin-bottom: 20px;
-    }
-
-    .port-icon {
-         display: none;
-    }
-
-    .port-icon-text {
-        display: none;
-    }
+	h3 {
+		font-size: 1.6em;
+	}
+	.icons-wrapper span a {
+		font-size: 2em;
+	}
+	#copy {
+		color: #383838;
+		font-size: 0.7rem;
+	}
+	.canvas-container {
+		height: 320px;
+	}
+	#phone-icon {
+		height: 250px;
+		width: auto;
+		margin-bottom: 20px;
+	}
 }
-
 
 @media (max-width: 738px) {
-
-    h3 {
-        font-size: 1.2em;
-    }
-
-   
-
+	h3 {
+		font-size: 1.2em;
+	}
 }
 
-
 @media (max-width: 576px) {
-    .jumbotron-fluid h1 {
-        font-size: 1.7em;
-    }
-
-    .jumbotron-fluid h2 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 0.9em;
-    }
-
-    #carousel-button-1, #carousel-button-2, #carousel-button-3, #carousel-button-4 {
-        width: 70%;
-        margin: auto;        
-    }  
-
-    .icon-size {
-        height: 90px;
-        width: auto;
-    }
-
-    #profile {
-        display: none;
-    }
-    
+	.jumbotron-fluid h1 {
+		font-size: 1.7em;
+	}
+	.jumbotron-fluid h2 {
+		font-size: 1.5em;
+	}
+	p {
+		font-size: 0.9em;
+	}
+	.icon-size {
+		height: 90px;
+		width: auto;
+	}
 }
 
 /* Portrait phones and smaller */
-@media (max-width: 480px) { 
 
-    #contact-inquiries {
-        font-size: 0.8em;
-    }
-
-    #port-featured-card {
-        width: 93%;
-    }
-
-    #app-featured-card {
-        width: 93%;
-    }
-
-    .icon-size {
-        height: 70px;
-        width: auto;
-    }
-
-    #carousel-button-1, #carousel-button-2, #carousel-button-3, #carousel-button-4 {
-        width: 100%;
-        margin: auto;
-        
-    }
+@media (max-width: 480px) {
+	#contact-inquiries {
+		font-size: 0.8em;
+	}
+	.icon-size {
+		height: 70px;
+		width: auto;
+	}
 }
 
-
 /*///*/
-

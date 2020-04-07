@@ -11,7 +11,7 @@ $('#navbarNav').on('click', function () {
 
 $(document).scroll(function () {
     var nav = $('#nav');
-    if ($(document).scrollTop() > (window.innerHeight)*0.93) {
+    if ($(document).scrollTop() > (window.innerHeight) * 0.93) {
         nav.show();
     } else {
         nav.hide();

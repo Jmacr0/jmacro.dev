@@ -31,8 +31,14 @@ h2, h3, p {
 	color: #ffffff;
 }
 
-.jumbotron-fluid h2 {
+.jumbotron-fluid h2, h2 a {
 	color: #929292;
+}
+
+h2 a, h2 a:hover {
+	font-size: 1.7rem;
+	color: #747474;
+	text-decoration: none;
 }
 
 /*//////////////////// NAVBAR /////////////////////*/
@@ -66,6 +72,18 @@ h2, h3, p {
 
 .container .navbar-brand:active {
 	color: #acacac;
+}
+
+/*//////////////////// SIDENAV /////////////////////*/
+
+#side-links {
+	width: 80px; 
+	height: 100vh; 
+	position: fixed; 
+	display: flex; 
+	justify-content: center; 
+	flex-direction: column;
+	z-index: 9999;
 }
 
 /*//////////////////// ABOUT /////////////////////*/
@@ -163,11 +181,11 @@ footer {
 	display: inline-flex;
 }
 
-.icons-wrapper span a {
+.icons-wrapper span a, #side-links div a {
 	font-size: 3em;
 	text-decoration: none;
 	color: #383838;
-	padding: 5px 25px 5px 25px;
+	padding: 5px 25px 5px 15px;
 }
 
 .icons-wrapper span a:hover {
@@ -192,6 +210,12 @@ footer {
 	h3 {
 		font-size: 2em;
 	}
+	.icons-wrapper {
+		display: none;
+	}
+	.copy-div {
+		padding: 10px, 0px;
+	}
 	#phone-icon {
 		height: 400px;
 		width: auto;
@@ -203,6 +227,12 @@ footer {
 @media (min-width: 1200px) {
 	h3 {
 		font-size: 1.7em;
+	}
+	.icons-wrapper {
+		display: none;
+	}
+	.copy-div {
+		padding: 10px, 0px;
 	}
 	#port-featured-card {
 		display: none;
@@ -222,6 +252,12 @@ footer {
 	h3 {
 		font-size: 1.8em;
 	}
+	.icons-wrapper {
+		display: none;
+	}
+	.copy-div {
+		padding: 10px 0px;
+	}
 	#phone-icon {
 		height: 300px;
 		width: auto;
@@ -233,6 +269,9 @@ footer {
 @media (min-width: 768px) and (max-width: 991px) {
 	h3 {
 		font-size: 1.7em;
+	}
+	#side-links {
+		visibility: hidden;
 	}
 	#copy {
 		color: #383838;
@@ -258,6 +297,9 @@ footer {
 @media (max-width: 767px) {
 	h3 {
 		font-size: 1.6em;
+	}
+	#side-links {
+		visibility: hidden;
 	}
 	.icons-wrapper span a {
 		font-size: 2em;

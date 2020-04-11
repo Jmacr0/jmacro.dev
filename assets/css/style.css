@@ -1,6 +1,6 @@
 /*//////////////////// UNIVERSAL /////////////////////*/
 
-body, #nav, footer {
+body, #nav, .modal, .modal-content, footer {
 	background-image: url("../images/what-the-hex-dark/what-the-hex-dark.png");
 	background-repeat: repeat;
 	background-attachment: fixed;
@@ -17,8 +17,9 @@ header {
 
 main {
 	background-image: url("../images/me-background.jpg");
-	background-size: cover;
 	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
 #contact {
@@ -27,11 +28,11 @@ main {
 	background-attachment: fixed;
 }
 
-h2, h3, p {
-	color: #ffffff;
+h2, h3, p, .modal-title, .close, .close:hover {
+	color: #f5f5f5;
 }
 
-.jumbotron-fluid h2, h2 a {
+.jumbotron-fluid h2, h2 a, li {
 	color: #929292;
 }
 
@@ -39,6 +40,11 @@ h2 a, h2 a:hover {
 	font-size: 1.7rem;
 	color: #747474;
 	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 /*//////////////////// NAVBAR /////////////////////*/
@@ -77,11 +83,11 @@ h2 a, h2 a:hover {
 /*//////////////////// SIDENAV /////////////////////*/
 
 #side-links {
-	width: 80px; 
-	height: 100vh; 
-	position: fixed; 
-	display: flex; 
-	justify-content: center; 
+	width: 80px;
+	height: 100vh;
+	position: fixed;
+	display: flex;
+	justify-content: center;
 	flex-direction: column;
 	z-index: 9999;
 }
@@ -118,7 +124,7 @@ h1 {
 	height: auto;
 }
 
-/*//////////////////// PORTFOLIO /////////////////////*/
+/*//////////////////// PROJECTS /////////////////////*/
 
 .pointer {
 	cursor: pointer;
@@ -136,7 +142,7 @@ h1 {
 	transition: 0.2s;
 }
 
-#portfolio img {
+#projects img {
 	height: auto;
 	width: 100%;
 	margin-bottom: 2em;

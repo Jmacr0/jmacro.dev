@@ -42,7 +42,7 @@ h2 a, h2 a:hover {
 	text-decoration: none;
 }
 
-ul {
+#skills ul {
 	list-style-type: none;
 	padding: 0;
 }
@@ -138,14 +138,30 @@ h1 {
 
 .app-name:hover {
 	color: #cccccc;
-	border-color: #ebebeb;
+	border-color: #cccccc;
 	transition: 0.2s;
+}
+
+.modal-content {
+	box-shadow: 0px 0px 500px #000000;
+	padding: 20px;
 }
 
 #projects img {
 	height: auto;
 	width: 100%;
 	margin-bottom: 2em;
+}
+
+/*//////////////////// SKILLS /////////////////////*/
+
+#skills h4 {
+	color: #303030;
+}
+
+#skills hr {
+	border-top: 1px solid grey;
+	width: 50%;
 }
 
 /*//////////////////// CONTACT /////////////////////*/

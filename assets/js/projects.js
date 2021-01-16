@@ -24,7 +24,7 @@ const bulletsHtml = (project) => {
 
 const html = (projects) => {
 	let html = '';
-	let createRow = false;
+	let createRow = 0;
 	for (let [name, project] of Object.entries(projects)) {
 		html += `<div class="col-sm-6">
 			<h3 class="app-name pointer" data-aos="fade-left" data-aos-duration="1500" data-toggle="modal"
@@ -45,18 +45,37 @@ const html = (projects) => {
 							</p>
 							<ul>`
 			+ bulletsHtml(project);
-		if (createRow) {
+		if (createRow > 2) {
 			const newRow = $('<div>', { class: 'row' }).html(html);
 			$('#projectList').append(newRow);
 			html = '';
-			createRow = !createRow;
+			createRow++;
 		} else {
-			createRow = !createRow;
+			createRow++;
 		}
 	};
 }
 
 const projects = {
+	eigo: {
+		name: 'Eigo',
+		description: 'Eigo is a Japanese Learning Tool App that encourages users to practice Japanese throughout pockets of time in their day.',
+		bulletPoints: [
+			'Flashcards allow users to practice memorizing characters and words in a pinch.',
+			'The user can search for a verbs and adjectives in the library.',
+			'Search function allows users to quickly find specific words.',
+			'Implements CRUD functionality through RESTful API',
+			'Database created with MySQL along with sequelize ORM library handling queries.',
+			'Uses Passport.js for authentication, and runs node.js / express.',
+		],
+		image: {
+			png: 'assets/images/eigo.png',
+			alt: 'eigo-image',
+		},
+		technologies: 'React &nbsp MySQL &nbsp Passport &nbsp Node &nbsp Heroku',
+		github: 'https://github.com/Jmacr0/eigo',
+		deployed: 'http://eigo-japanese-app.herokuapp.com/',
+	},
 	reviewMe: {
 		name: 'ReviewMe',
 		description: 'ReviewMe allows users to create and search for reviews on different items.',

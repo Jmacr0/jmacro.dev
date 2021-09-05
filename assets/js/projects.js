@@ -69,7 +69,7 @@ const projects = {
 			'Uses Passport.js for authentication, and runs node.js / express.',
 		],
 		image: {
-			png: 'assets/images/eigo.png',
+			png: 'assets/images/eigo.PNG',
 			alt: 'eigo-image',
 		},
 		technologies: 'React &nbsp MySQL &nbsp Passport &nbsp Node &nbsp Heroku',

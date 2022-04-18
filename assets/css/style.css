@@ -1,6 +1,7 @@
 /*//////////////////// UNIVERSAL /////////////////////*/
 
 body, #nav, .modal, .modal-content, footer {
+	background-color: black;
 	background-image: url("../images/what-the-hex-dark/what-the-hex-dark.png");
 	background-repeat: repeat;
 	background-attachment: fixed;

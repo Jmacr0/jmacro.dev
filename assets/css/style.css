@@ -126,6 +126,11 @@ h1 {
 
 /*//////////////////// PROJECTS /////////////////////*/
 
+#projects {
+	max-width: 100vw;
+	overflow: hidden;
+}
+
 .pointer {
 	cursor: pointer;
 }
@@ -156,6 +161,7 @@ h1 {
 hr {
 	border-top: 1px solid white;
 }
+
 
 /*//////////////////// SKILLS /////////////////////*/
 

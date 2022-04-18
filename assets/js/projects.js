@@ -27,7 +27,7 @@ const html = (projects) => {
 	let createRow = 0;
 	for (let [name, project] of Object.entries(projects)) {
 		html += `<div class="col-sm-6">
-			<h3 class="app-name pointer" data-aos="fade-left" data-aos-duration="1500" data-toggle="modal"
+			<h3 class="app-name pointer" data-aos="fade-up" data-aos-duration="1500" data-toggle="modal"
 				data-target="#${project.name}-modal">${project.name}</h3>
 			<div class="modal fade" id="${project.name}-modal" tabindex="-1" role="dialog"
 				aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

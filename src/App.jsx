@@ -1,20 +1,25 @@
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
+import Intro from "./sections/Intro";
+import SkillsBanner from "./sections/SkillsBanner";
+import ParticlesBG from "./Particles";
+import Title from "./sections/Title";
+import NavBar from "./sections/NavBar";
+
+import "./app.css";
+import Projects from "./sections/Projects";
+import Socials from "./sections/Socials";
 
 const App = () => {
-  return (
-    <Box sx={{ display: 'flex' }}>
-    <AppBar component="nav">
-      <Toolbar>
-      <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            jmacro.dev
-          </Typography>
-      </Toolbar>
-    </AppBar>
-  </Box>
-  );
-}
+	return (
+		<>
+			<ParticlesBG />
+			<NavBar />
+			<Title />
+			<Intro />
+			<SkillsBanner />
+			<Projects />
+			<Socials />
+		</>
+	);
+};
 
 export default App;

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jmacro.dev/static/css/main.256a48f0.css",
-    "main.js": "/jmacro.dev/static/js/main.8d349c8a.js",
+    "main.js": "/jmacro.dev/static/js/main.bf4151e6.js",
     "static/media/me-boat.jpg": "/jmacro.dev/static/media/me-boat.602f98eb32135083336a.jpg",
     "static/media/babel-png.png": "/jmacro.dev/static/media/babel-png.e9b4bbd9fa4d3fe52db3.png",
     "static/media/react-png.png": "/jmacro.dev/static/media/react-png.7fbc2ed0fc8cce7ea9ae.png",
@@ -17,10 +17,10 @@
     "static/media/electron-svg.svg": "/jmacro.dev/static/media/electron-svg.743c23e7a34248cdd76928344973da94.svg",
     "index.html": "/jmacro.dev/index.html",
     "main.256a48f0.css.map": "/jmacro.dev/static/css/main.256a48f0.css.map",
-    "main.8d349c8a.js.map": "/jmacro.dev/static/js/main.8d349c8a.js.map"
+    "main.bf4151e6.js.map": "/jmacro.dev/static/js/main.bf4151e6.js.map"
   },
   "entrypoints": [
     "static/css/main.256a48f0.css",
-    "static/js/main.8d349c8a.js"
+    "static/js/main.bf4151e6.js"
   ]
 }

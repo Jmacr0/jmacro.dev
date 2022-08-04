@@ -40,6 +40,7 @@ const Socials = () => {
 
 	return (
 		<Box
+			id="socials"
 			sx={{
 				display: "flex",
 				"& > :not(style)": {

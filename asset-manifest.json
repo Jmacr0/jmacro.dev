@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.256a48f0.css",
-    "main.js": "/static/js/main.acf18bd9.js",
+    "main.css": "/static/css/main.72889b36.css",
+    "main.js": "/static/js/main.2b244d43.js",
+    "static/media/crypto-pairs-desktop.png": "/static/media/crypto-pairs-desktop.c0eca0d632903944eacd.png",
+    "static/media/eigo-desktop.png": "/static/media/eigo-desktop.b54c62c40620ff3aaf30.png",
     "static/media/me-boat.jpg": "/static/media/me-boat.602f98eb32135083336a.jpg",
+    "static/media/crypto-pairs-mobile.png": "/static/media/crypto-pairs-mobile.5c5dc01cbb6fc1c3f9e1.png",
     "static/media/babel-png.png": "/static/media/babel-png.e9b4bbd9fa4d3fe52db3.png",
+    "static/media/mysql-png.png": "/static/media/mysql-png.167c88550478e6f0f85c.png",
+    "static/media/eigo-mobile.png": "/static/media/eigo-mobile.5137e25e6bbda40c1006.png",
+    "static/media/mui-png.png": "/static/media/mui-png.5955eca0663eaeb9b8d6.png",
     "static/media/react-png.png": "/static/media/react-png.7fbc2ed0fc8cce7ea9ae.png",
-    "static/media/sap-png.png": "/static/media/sap-png.6c44fb9f2b4d3ba4a5f1.png",
+    "static/media/mongodb-png.png": "/static/media/mongodb-png.2f81ed7ec1fd818da1b5.png",
     "static/media/webpack-png.png": "/static/media/webpack-png.b86d69f11b9d29c9cd5b.png",
     "static/media/html-png.png": "/static/media/html-png.1d7b133e22ffe4829da6.png",
     "static/media/css-png.png": "/static/media/css-png.9f33c557b92e4e2e1cc8.png",
+    "static/media/heroku-png.png": "/static/media/heroku-png.f753593d89b3794e7cb1.png",
     "static/media/sql-png.png": "/static/media/sql-png.ee2b2d8279fb9225c0c3.png",
     "static/media/jmacro.dev.png": "/static/media/jmacro.dev.b433a40e88ce2a291abf.png",
     "static/media/node-png.png": "/static/media/node-png.31c0e97d5776c294d370.png",
+    "static/media/sql-anywhere-png.png": "/static/media/sql-anywhere-png.6d3a8533ad9d15f921bf.png",
     "static/media/powershell-png.png": "/static/media/powershell-png.918e25fc23aef22e936f.png",
     "static/media/sass-png.png": "/static/media/sass-png.1e7800226257cf0a44bf.png",
+    "static/media/sequelize-png.png": "/static/media/sequelize-png.d98b2554b49e415e0c08.png",
     "static/media/electron-svg.svg": "/static/media/electron-svg.743c23e7a34248cdd76928344973da94.svg",
     "index.html": "/index.html",
-    "main.256a48f0.css.map": "/static/css/main.256a48f0.css.map",
-    "main.acf18bd9.js.map": "/static/js/main.acf18bd9.js.map"
+    "main.72889b36.css.map": "/static/css/main.72889b36.css.map",
+    "main.2b244d43.js.map": "/static/js/main.2b244d43.js.map"
   },
   "entrypoints": [
-    "static/css/main.256a48f0.css",
-    "static/js/main.acf18bd9.js"
+    "static/css/main.72889b36.css",
+    "static/js/main.2b244d43.js"
   ]
 }

@@ -7,13 +7,18 @@ import js from "../assets/images/js-png.png";
 import electron from "../assets/images/electron-svg.svg";
 import node from "../assets/images/node-png.png";
 import powershell from "../assets/images/powershell-png.png";
-import sap from "../assets/images/sap-png.png";
+import sqlanywhere from "../assets/images/sql-anywhere-png.png";
 import sass from "../assets/images/sass-png.png";
 import webpack from "../assets/images/webpack-png.png";
 import babel from "../assets/images/babel-png.png";
 import html from "../assets/images/html-png.png";
 import css from "../assets/images/css-png.png";
 import sql from "../assets/images/sql-png.png";
+import heroku from "../assets/images/heroku-png.png";
+import sequelize from "../assets/images/sequelize-png.png";
+import mysql from "../assets/images/mysql-png.png";
+import mongodb from "../assets/images/mongodb-png.png";
+import mui from "../assets/images/mui-png.png";
 
 const SkillsBanner = () => {
 	return (
@@ -39,13 +44,18 @@ const SkillsBanner = () => {
 				<img src={electron} alt="electron-logo" height="50" />
 				<img src={node} alt="node-logo" height="50" />
 				<img src={powershell} alt="powershell-logo" height="50" />
-				<img src={sap} alt="sap-logo" height="50" />
+				<img src={sqlanywhere} alt="sql-anywhere-logo" height="50" />
 				<img src={sass} alt="sass-logo" height="50" />
 				<img src={webpack} alt="webpack-logo" height="50" />
 				<img src={babel} alt="babel-logo" height="50" />
 				<img src={html} alt="html-logo" height="50" />
 				<img src={css} alt="css-logo" height="50" />
 				<img src={sql} alt="sql-logo" height="50" />
+				<img src={heroku} alt="heroku-logo" height="50" />
+				<img src={sequelize} alt="sequelize-logo" height="50" />
+				<img src={mysql} alt="mysql-logo" height="50" />
+				<img src={mongodb} alt="mongodb-logo" height="50" />
+				<img src={mui} alt="mui-logo" height="50" />
 			</Paper>
 		</Box>
 	);

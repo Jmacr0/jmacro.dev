@@ -25,7 +25,11 @@ const NavBar = () => {
 					</Typography>
 					<Box sx={{ display: { xs: "none", sm: "block" } }}>
 						{navLinks.map((link) => (
-							<Button key={link} className="nav-link">
+							<Button
+								key={link}
+								className="nav-link"
+								href={`#${link}`}
+							>
 								{link}
 							</Button>
 						))}

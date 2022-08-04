@@ -18,7 +18,7 @@ import "./styles/intro.css";
 
 const Intro = () => {
 	return (
-		<Box>
+		<Box id="about">
 			<Grid container className="section--intro">
 				<Grid className="z1" item sm={6} style={{ width: "100%" }}>
 					<Paper

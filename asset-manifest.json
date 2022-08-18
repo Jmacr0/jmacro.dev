@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.72889b36.css",
-    "main.js": "/static/js/main.2b244d43.js",
+    "main.js": "/static/js/main.f5643e39.js",
     "static/media/crypto-pairs-desktop.png": "/static/media/crypto-pairs-desktop.c0eca0d632903944eacd.png",
     "static/media/eigo-desktop.png": "/static/media/eigo-desktop.b54c62c40620ff3aaf30.png",
     "static/media/me-boat.jpg": "/static/media/me-boat.602f98eb32135083336a.jpg",
@@ -26,10 +26,10 @@
     "static/media/electron-svg.svg": "/static/media/electron-svg.743c23e7a34248cdd76928344973da94.svg",
     "index.html": "/index.html",
     "main.72889b36.css.map": "/static/css/main.72889b36.css.map",
-    "main.2b244d43.js.map": "/static/js/main.2b244d43.js.map"
+    "main.f5643e39.js.map": "/static/js/main.f5643e39.js.map"
   },
   "entrypoints": [
     "static/css/main.72889b36.css",
-    "static/js/main.2b244d43.js"
+    "static/js/main.f5643e39.js"
   ]
 }

@@ -55,6 +55,13 @@ const Projects = () => {
 								fontStyle: "italic",
 								marginBottom: "2rem",
 							}}
+							sx={{
+								margin: "auto",
+								width: {
+									lg: "75%",
+									xl: "50%"
+								}
+							}}
 						>
 							Projects
 						</Typography>
@@ -63,6 +70,13 @@ const Projects = () => {
 								key={i}
 								expanded={expanded === p.name}
 								onChange={handleChange(p.name)}
+								sx={{
+									margin: "auto!important",
+									width: {
+										lg: "75%",
+										xl: "50%"
+									}
+								}}
 							>
 								<AccordionSummary
 									expandIcon={<ExpandMoreIcon />}
@@ -120,6 +134,8 @@ const Projects = () => {
 												src={p.img.mob}
 												alt=""
 												style={{
+													display: "block",
+													margin: "auto",
 													height: "auto",
 													maxHeight: "40rem",
 													width: "auto",
@@ -134,6 +150,8 @@ const Projects = () => {
 												src={p.img.desk}
 												alt=""
 												style={{
+													display: "block",
+													margin: "auto",
 													height: "auto",
 													maxHeight: "30rem",
 													width: "auto",

@@ -1,0 +1,16 @@
+.skills-banner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.skill-image {
+	transition: all 0.5s;
+	height: 50px;
+	margin: 1rem;
+}
+
+.skill-image:hover {
+	transform: scale(1.2);
+}

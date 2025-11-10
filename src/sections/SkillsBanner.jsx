@@ -1,6 +1,8 @@
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 
+import "./styles/skills-banner.css";
+
 import react from "../assets/images/react-png.png";
 import ts from "../assets/images/ts-png.png";
 import js from "../assets/images/js-png.png";
@@ -19,6 +21,7 @@ import sequelize from "../assets/images/sequelize-png.png";
 import mysql from "../assets/images/mysql-png.png";
 import mongodb from "../assets/images/mongodb-png.png";
 import mui from "../assets/images/mui-png.png";
+import postgresql from "../assets/images/postgresql-svg.svg";
 
 const SkillsBanner = () => {
 	return (
@@ -37,25 +40,46 @@ const SkillsBanner = () => {
 				},
 			}}
 		>
-			<Paper square={true}>
-				<img src={react} alt="react-logo" height="50" />
-				<img src={ts} alt="ts-logo" height="50" />
-				<img src={js} alt="js-logo" height="50" />
-				<img src={electron} alt="electron-logo" height="50" />
-				<img src={node} alt="node-logo" height="50" />
-				<img src={powershell} alt="powershell-logo" height="50" />
-				<img src={sqlanywhere} alt="sql-anywhere-logo" height="50" />
-				<img src={sass} alt="sass-logo" height="50" />
-				<img src={webpack} alt="webpack-logo" height="50" />
-				<img src={babel} alt="babel-logo" height="50" />
-				<img src={html} alt="html-logo" height="50" />
-				<img src={css} alt="css-logo" height="50" />
-				<img src={sql} alt="sql-logo" height="50" />
-				<img src={heroku} alt="heroku-logo" height="50" />
-				<img src={sequelize} alt="sequelize-logo" height="50" />
-				<img src={mysql} alt="mysql-logo" height="50" />
-				<img src={mongodb} alt="mongodb-logo" height="50" />
-				<img src={mui} alt="mui-logo" height="50" />
+			<Paper square={true} className="skills-banner">
+				<img src={react} alt="react-logo" className="skill-image" />
+				<img src={ts} alt="ts-logo" className="skill-image" />
+				<img src={js} alt="js-logo" className="skill-image" />
+				<img
+					src={electron}
+					alt="electron-logo"
+					className="skill-image"
+				/>
+				<img src={node} alt="node-logo" className="skill-image" />
+				<img
+					src={powershell}
+					alt="powershell-logo"
+					className="skill-image"
+				/>
+				<img
+					src={sqlanywhere}
+					alt="sql-anywhere-logo"
+					className="skill-image"
+				/>
+				<img src={sass} alt="sass-logo" className="skill-image" />
+				<img src={webpack} alt="webpack-logo" className="skill-image" />
+				<img src={babel} alt="babel-logo" className="skill-image" />
+				<img src={html} alt="html-logo" className="skill-image" />
+				<img src={css} alt="css-logo" className="skill-image" />
+				<img src={sql} alt="sql-logo" className="skill-image" />
+				<img src={heroku} alt="heroku-logo" className="skill-image" />
+				<img
+					src={sequelize}
+					alt="sequelize-logo"
+					className="skill-image"
+				/>
+				<img src={mysql} alt="mysql-logo" className="skill-image" />
+				<img
+					src={postgresql}
+					alt="postgresql-logo"
+					className="skill-image"
+				/>
+				<img src={mongodb} alt="mongodb-logo" className="skill-image" />
+				<img src={mui} alt="mui-logo" className="skill-image" />
 			</Paper>
 		</Box>
 	);

@@ -28,7 +28,9 @@ import eigoDesktop from "../assets/images/eigo-desktop.png";
 import WebIcon from "@mui/icons-material/Web";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
-const Projects = () => {
+import "./styles/projects.css";
+
+const Archive = () => {
 	const [expanded, setExpanded] = useState(false);
 
 	const handleChange = (panel) => (event, isExpanded) => {
@@ -36,7 +38,7 @@ const Projects = () => {
 	};
 
 	return (
-		<Box id="projects">
+		<Box id="archive">
 			<Grid container className="section--intro">
 				<Grid className="z1" item style={{ width: "100%" }}>
 					<Paper
@@ -56,7 +58,7 @@ const Projects = () => {
 								marginBottom: "2rem",
 							}}
 						>
-							Projects
+							Archived Projects
 						</Typography>
 						{projects.map((p, i) => (
 							<Accordion
@@ -119,28 +121,14 @@ const Projects = () => {
 											<img
 												src={p.img.mob}
 												alt=""
-												style={{
-													height: "auto",
-													maxHeight: "40rem",
-													width: "auto",
-													maxWidth: "100%",
-													boxShadow:
-														"0px 0px 17px -3px rgba(0,0,0,0.75)",
-												}}
+												className="project-image"
 											/>
 										</MediaQuery>
 										<MediaQuery minWidth={600}>
 											<img
 												src={p.img.desk}
 												alt=""
-												style={{
-													height: "auto",
-													maxHeight: "30rem",
-													width: "auto",
-													maxWidth: "100%",
-													boxShadow:
-														"0px 0px 17px -3px rgba(0,0,0,0.75)",
-												}}
+												className="project-image"
 											/>
 										</MediaQuery>
 									</Grid>
@@ -220,4 +208,4 @@ const projects = [
 	},
 ];
 
-export default Projects;
+export default Archive;

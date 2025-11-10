@@ -22,7 +22,7 @@ const ParticlesBG = () => {
 			options={{
 				background: {
 					color: {
-						value: "#4a8bed",
+						value: "#000000",
 					},
 				},
 				fpsLimit: 120,
@@ -69,8 +69,9 @@ const ParticlesBG = () => {
 							default: "bounce",
 						},
 						random: false,
-						speed: 3,
+						speed: 1,
 						straight: false,
+						animate: true,
 					},
 					number: {
 						density: {

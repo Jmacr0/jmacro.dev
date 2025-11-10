@@ -49,7 +49,6 @@ const Socials = () => {
 					minHeight: "10rem",
 					zIndex: 1,
 					boxShadow: "none",
-					marginTop: "2rem",
 					padding: "2rem",
 					paddingTop: "4rem",
 					overflow: "hidden",

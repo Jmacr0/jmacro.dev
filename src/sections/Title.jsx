@@ -1,6 +1,5 @@
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
 import "./styles/title.css";
 
 const Title = () => {
@@ -20,23 +19,20 @@ const Title = () => {
 		>
 			<Grid container className="section--title">
 				<Grid item className="z1">
-					<Typography
-						variant="h3"
-						style={{
+					<h1 style={{
 							fontFamily: "Exo",
 							fontWeight: "500",
 							fontStyle: "italic",
-						}}
-					>
-						Jon Macrohon
-					</Typography>
+							fontSize: "3rem",
+							color: "white"
+						}}>Jon Macrohon</h1>
 					<hr style={{ border: "2px solid white" }} />
-					<Typography
-						variant="h3"
-						style={{ fontFamily: "Exo", fontWeight: "bold" }}
-					>
-						Software Developer
-					</Typography>
+					<h1 style={{
+							fontFamily: "Exo",
+							fontWeight: "bold",
+							fontSize: "3rem",
+							color: "white"
+						}}>Software Developer</h1>
 				</Grid>
 			</Grid>
 		</Box>

@@ -14,8 +14,10 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-responsive": "^9.0.0-beta.10",
+		"react-router-dom": "^7.9.5",
 		"react-scripts": "5.0.1",
 		"react-tsparticles": "^2.1.4",
+		"react-typewriter-effect": "^1.1.0",
 		"tsparticles": "^2.1.4",
 		"web-vitals": "^2.1.4"
 	},

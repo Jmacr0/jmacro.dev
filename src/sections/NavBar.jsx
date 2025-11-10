@@ -4,8 +4,9 @@ import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import logo from "../assets/images/jmacro.dev.png";
+import { Link } from "react-router-dom";
 
-const navLinks = ["about", "projects", "socials"];
+const navLinks = ["about", "services", "socials"];
 
 const NavBar = () => {
 	return (
@@ -17,22 +18,27 @@ const NavBar = () => {
 						component="div"
 						sx={{ flexGrow: 1 }}
 					>
-						<img
-							src={logo}
-							alt="jmacro-dev-logo"
-							style={{ maxHeight: "5rem" }}
-						/>
+						<Link to="/">
+							<img
+								src={logo}
+								alt="jmacro-dev-logo"
+								style={{ maxHeight: "5rem" }}
+							/>
+						</Link>
 					</Typography>
 					<Box sx={{ display: { xs: "none", sm: "block" } }}>
 						{navLinks.map((link) => (
-							<Button
+							<Link
 								key={link}
+								to={`/#${link}`}
 								className="nav-link"
-								href={`#${link}`}
 							>
-								{link}
-							</Button>
+								<Button className="nav-link">{link}</Button>
+							</Link>
 						))}
+						<Link to="/archive" className="nav-link">
+							<Button className="nav-link">Archive</Button>
+						</Link>
 					</Box>
 				</Toolbar>
 			</AppBar>

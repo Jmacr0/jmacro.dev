@@ -61,8 +61,8 @@ const Archive = () => {
 								margin: "auto",
 								width: {
 									lg: "75%",
-									xl: "50%"
-								}
+									xl: "50%",
+								},
 							}}
 						>
 							Archived Projects
@@ -76,8 +76,8 @@ const Archive = () => {
 									margin: "auto!important",
 									width: {
 										lg: "75%",
-										xl: "50%"
-									}
+										xl: "50%",
+									},
 								}}
 							>
 								<AccordionSummary
@@ -135,7 +135,6 @@ const Archive = () => {
 											<img
 												src={p.img.mob}
 												alt=""
-<<<<<<< HEAD:src/sections/Archive.jsx
 												className="project-image"
 											/>
 										</MediaQuery>

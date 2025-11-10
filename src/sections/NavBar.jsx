@@ -3,8 +3,8 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import logo from "../assets/images/jmacro.dev.png";
-import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
 const navLinks = ["about", "services", "socials"];
 
@@ -18,27 +18,29 @@ const NavBar = () => {
 						component="div"
 						sx={{ flexGrow: 1 }}
 					>
-						<Link to="/">
+						<RouterLink to="/">
 							<img
 								src={logo}
 								alt="jmacro-dev-logo"
 								style={{ maxHeight: "5rem" }}
 							/>
-						</Link>
+						</RouterLink>
 					</Typography>
 					<Box sx={{ display: { xs: "none", sm: "block" } }}>
 						{navLinks.map((link) => (
-							<Link
+							<ScrollLink
 								key={link}
-								to={`/#${link}`}
+								to={link}
+								smooth={true}
+								duration={500}
 								className="nav-link"
 							>
 								<Button className="nav-link">{link}</Button>
-							</Link>
+							</ScrollLink>
 						))}
-						<Link to="/archive" className="nav-link">
+						<RouterLink to="/archive" className="nav-link">
 							<Button className="nav-link">Archive</Button>
-						</Link>
+						</RouterLink>
 					</Box>
 				</Toolbar>
 			</AppBar>

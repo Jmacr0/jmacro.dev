@@ -11,6 +11,7 @@ import mongoImage from "../assets/images/mongodb-png.png";
 import mysqlImage from "../assets/images/mysql-png.png";
 import postgresqlImage from "../assets/images/postgresql-svg.svg";
 import herokuImage from "../assets/images/heroku-png.png";
+import awsImage from "../assets/images/aws.svg";
 
 const services = [
 	{
@@ -26,7 +27,7 @@ const services = [
 	{
 		name: "Cloud Hosting",
 		desc: "We can deploy and manage your application on various cloud platforms, including AWS and Heroku, ensuring high availability and scalability.",
-		images: [herokuImage],
+		images: [herokuImage, awsImage],
 	},
 ];
 

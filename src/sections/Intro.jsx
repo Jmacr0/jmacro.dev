@@ -20,7 +20,7 @@ const Intro = () => {
 	return (
 		<Box id="about">
 			<Grid container className="section--intro">
-				<Grid className="z1" item sm={6} style={{ width: "100%" }}>
+				<Grid className="z1" item style={{ width: "100%" }}>
 					<Paper
 						className="z1 b-sh-0"
 						square={true}
@@ -30,69 +30,63 @@ const Intro = () => {
 							paddingBottom: 0,
 						}}
 					>
-						<Avatar
-							src={profile}
-							alt="Jon Macrohon"
-							sx={{
-								width: "10rem",
-								height: "10rem",
-								margin: "auto",
-								marginBottom: "2rem",
-							}}
-						/>
-						<Typography variant="h4" style={{ fontFamily: "Exo" }}>
-							Jon
-						</Typography>
-						<Typography
-							variant="body1"
-							style={{ fontFamily: "Exo" }}
-						>
-							<i>Software Developer</i> providing{" "}
-							<b>web & software solutions.</b>
-						</Typography>
-					</Paper>
-				</Grid>
-				<Grid className="z1" item sm={6} style={{ width: "100%" }}>
-					<Paper
-						className="z1 b-sh-0"
-						square={true}
-						style={{
-							height: "100%",
-							padding: "2rem",
-							paddingBottom: 0,
-						}}
-					>
-						<Typography
-							variant="h4"
-							fontStyle="italic"
-							fontWeight="bold"
-							style={{
-								fontFamily: "Exo",
-								fontWeight: 400,
-								color: "steelblue",
-							}}
-						>
-							Solutions
-						</Typography>
-						<List dense={true}>
-							{solutions.map((bullet, index) => (
-								<ListItem key={index}>
-									<ListItemIcon>
-										<DoubleArrowIcon
-											sx={{ color: "purple" }}
-										/>
-									</ListItemIcon>
-									<ListItemText
-										primary={bullet}
-										primaryTypographyProps={{
-											variant: "h6",
-											fontFamily: "Exo",
-										}}
-										secondary={null}
-									/>
-								</ListItem>
-							))}
-						</List>
+						<Grid container style={{ justifyContent: "center" }}>
+							<Grid item sm={6} lg={4} xl={3} style={{ width: "100%", marginBottom: "2rem" }}>
+								<Avatar
+									src={profile}
+									alt="Jon Macrohon"
+									sx={{
+										width: "10rem",
+										height: "10rem",
+										margin: "auto",
+										marginBottom: "2rem",
+									}}
+								/>
+								<Typography variant="h4" style={{ fontFamily: "Exo" }}>
+									Jon
+								</Typography>
+								<Typography
+									variant="body1"
+									style={{ fontFamily: "Exo" }}
+								>
+									<i>Software Developer</i> providing{" "}
+									<b>web & software solutions.</b>
+								</Typography>
+							</Grid>
+							<Grid item sm={6} lg={4} xl={3} style={{ width: "100%" }}>
+								<Typography
+									variant="h4"
+									fontStyle="italic"
+									fontWeight="bold"
+									style={{
+										fontFamily: "Exo",
+										fontWeight: 400,
+										color: "steelblue",
+									}}
+								>
+									Solutions
+								</Typography>
+								<List dense={true}>
+									{solutions.map((bullet, index) => (
+										<ListItem key={index}>
+											<ListItemIcon>
+												<DoubleArrowIcon
+													sx={{ color: "purple" }}
+												/>
+											</ListItemIcon>
+											<ListItemText
+												primary={bullet}
+												primaryTypographyProps={{
+													variant: "h6",
+													fontFamily: "Exo",
+												}}
+												secondary={null}
+											/>
+										</ListItem>
+									))}
+								</List>
+							</Grid>
+						</Grid>
 					</Paper>
 				</Grid>
 			</Grid>

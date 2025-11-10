@@ -57,6 +57,13 @@ const Archive = () => {
 								fontStyle: "italic",
 								marginBottom: "2rem",
 							}}
+							sx={{
+								margin: "auto",
+								width: {
+									lg: "75%",
+									xl: "50%"
+								}
+							}}
 						>
 							Archived Projects
 						</Typography>
@@ -65,6 +72,13 @@ const Archive = () => {
 								key={i}
 								expanded={expanded === p.name}
 								onChange={handleChange(p.name)}
+								sx={{
+									margin: "auto!important",
+									width: {
+										lg: "75%",
+										xl: "50%"
+									}
+								}}
 							>
 								<AccordionSummary
 									expandIcon={<ExpandMoreIcon />}
@@ -121,6 +135,7 @@ const Archive = () => {
 											<img
 												src={p.img.mob}
 												alt=""
+<<<<<<< HEAD:src/sections/Archive.jsx
 												className="project-image"
 											/>
 										</MediaQuery>
